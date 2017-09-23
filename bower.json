@@ -1,0 +1,26 @@
+{
+  "name": "coderIndex",
+  "authors": [
+    "FreeMing<953082389@qq.com>"
+  ],
+  "description": "FreeMing's coder index page",
+  "main": "index.html",
+  "keywords": [
+    "导航",
+    "index"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "js/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "4.0.0-beta"
+  }
+}

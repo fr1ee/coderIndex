@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>A Coder's Index</title>
+    <link rel="stylesheet" href="js/lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+
+<div class="wrap">
+    <div class="container mainblock">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">Some quick text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="nav-main">
+    <div class="nav-box">
+        <div class="nav">
+            <ul class="nav-ul">
+                <li><a href="#" class="home"><span>首页</span></a></li>
+                <li><a href="#" class="develop"><span>Web Developer</span></a></li>
+                <li><a href="#" class="wechat"><span>Java Programmer</span></a></li>
+                <li><a href="#" class="case"><span>项目相关</span></a></li>
+                <li><a href="#" class="news"><span>耳聪目明</span></a></li>
+                <li><a href="#" class="contact"><span>Ming</span></a></li>
+            </ul>
+        </div>
+        <div class="nav-slide">
+            <div class="nav-slide-o"></div>
+            <div class="nav-slide-o">
+                <ul>
+                    <li><a href="#CSS框架"><span>CSS框架</span></a></li>
+                    <li><a href="#JS特效"><span>JS特效</span></a></li>
+                    <li><a href="#React"><span>React</span></a></li>
+                    <li><a href="#Angular"><span>Angular</span></a></li>
+                    <li><a href="#Vue"><span>Vue</span></a></li>
+                    <li><a href="#UI"><span>UI</span></a></li>
+                    <li><a href="#源码"><span>源码</span></a></li>
+                    <li><a href="#H5游戏"><span>H5游戏</span></a></li>
+                </ul>
+            </div>
+            <div class="nav-slide-o">
+                <ul>
+                    <li><a href="#JAVA基础"><span>JAVA基础</span></a></li>
+                    <li><a href="#SQL"><span>SQL</span></a></li>
+                    <li><a href="#JSP"><span>JSP</span></a></li>
+                    <li><a href="#微服务"><span>微服务</span></a></li>
+                </ul>
+            </div>
+            <div class="nav-slide-o">
+                <ul>
+                    <li><a href="#采编发"><span>采编发</span></a></li>
+                    <li><a href="#评论管理平台"><span>评论管理平台</span></a></li>
+                    <li><a href="#网站导航"><span>网站导航</span></a></li>
+                </ul>
+            </div>
+            <div class="nav-slide-o">
+                <ul>
+                    <li><a href="#行业动态"><span>行业动态</span></a></li>
+                    <li><a href="#科技新闻"><span>科技新闻</span></a></li>
+                    <li><a href="#社会新闻"><span>社会新闻</span></a></li>
+                    <li><a href="#优秀论坛"><span>优秀论坛</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/lib/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        var thisTime;
+        $('.nav-ul li').mouseleave(function (even) {
+            thisTime = setTimeout(thisMouseOut, 1000);
+        })
+
+        $('.nav-ul li').mouseenter(function () {
+            clearTimeout(thisTime);
+            var thisUB = $('.nav-ul li').index($(this));
+            if ($.trim($('.nav-slide-o').eq(thisUB).html()) != "") {
+                $('.nav-slide').addClass('hover');
+                $('.nav-slide-o').hide();
+                $('.nav-slide-o').eq(thisUB).show();
+            }
+            else {
+                $('.nav-slide').removeClass('hover');
+            }
+
+        })
+
+        function thisMouseOut() {
+            $('.nav-slide').removeClass('hover');
+        }
+
+        $('.nav-slide').mouseenter(function () {
+            clearTimeout(thisTime);
+            $('.nav-slide').addClass('hover');
+        })
+        $('.nav-slide').mouseleave(function () {
+            $('.nav-slide').removeClass('hover');
+        })
+
+    })
+</script>
+
+</body>
+</html>
