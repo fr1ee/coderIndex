@@ -291,3 +291,13 @@ body {
     display: none;
 }
 
+.right-menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 12;
+    height: 100%;
+    width: 100px;
+    color: #fff;
+    background: #111213;
+}

@@ -1,8 +1,8 @@
 /*  动画闪烁颜色  */
 @-webkit-keyframes greenPulse {
-    from { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
-    50% { background-color: #91bd09; -webkit-box-shadow: 0 0 18px #91bd09; }
-    to { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
+    from { background-color: #b2da02; -webkit-box-shadow: 0 0 9px #c8c8c8; }
+    50% { background-color: #b8e809; -webkit-box-shadow: 0 0 28px #bbec09; }
+    to { background-color: #a7da02; -webkit-box-shadow: 0 0 9px #d1d1d1; }
 }
 
 @-webkit-keyframes bluePulse {
