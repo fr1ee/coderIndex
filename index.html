@@ -13,36 +13,52 @@
 <div class="wrap">
     <!--英语-->
     <div class="container mainblock">
-        <div id="英语" class="large greenPulse button animationRepeat">英语-Practice makes perfect!</div>
+        <div id="英语" class="large greenPulse button animationRepeat partTitle">英语-Practice makes perfect!</div>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 button_link">
                 <div class="card">
                     <div class="card-body">
-                        <img src="./images/code.png" alt="网站图标" class="img-circle">
+                        <!--<img src="./images/code.png" alt="网站图标" class="img-circle">-->
                         <p class="card-text">Some quick text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
+                <span class="line line_top"></span>
+                <span class="line line_right"></span>
+                <span class="line line_bottom"></span>
+                <span class="line line_left"></span>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 button_link">
                 <div class="card">
                     <div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
+                <span class="line line_top"></span>
+                <span class="line line_right"></span>
+                <span class="line line_bottom"></span>
+                <span class="line line_left"></span>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 button_link">
                 <div class="card">
                     <div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
+                <span class="line line_top"></span>
+                <span class="line line_right"></span>
+                <span class="line line_bottom"></span>
+                <span class="line line_left"></span>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 button_link">
                 <div class="card">
                     <div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
+                <span class="line line_top"></span>
+                <span class="line line_right"></span>
+                <span class="line line_bottom"></span>
+                <span class="line line_left"></span>
             </div>
         </div>
     </div>
@@ -515,8 +531,10 @@
         <div id="介绍">介绍</div>
         <div class="row">
             <div class="col-md-4">
+
                 <div class="card">
                     <div class="card-body">
+
                         <h3><a href="https://www.jd.com/"  target="_blank">京东</a></h3>
                         <p class="card-text">京东官网</p>
                     </div>
@@ -639,40 +657,9 @@
     </ul>
 </div>
 <script type="text/javascript" src="js/lib/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="js/"></script>
 <script type="text/javascript">
-    $(function () {
-        var thisTime;
-        $('.nav-ul li').mouseleave(function (even) {
-            thisTime = setTimeout(thisMouseOut, 1000);
-        })
 
-        $('.nav-ul li').mouseenter(function () {
-            clearTimeout(thisTime);
-            var thisUB = $('.nav-ul li').index($(this));
-            if ($.trim($('.nav-slide-o').eq(thisUB).html()) != "") {
-                $('.nav-slide').addClass('hover');
-                $('.nav-slide-o').hide();
-                $('.nav-slide-o').eq(thisUB).show();
-            }
-            else {
-                $('.nav-slide').removeClass('hover');
-            }
-
-        })
-
-        function thisMouseOut() {
-            $('.nav-slide').removeClass('hover');
-        }
-
-        $('.nav-slide').mouseenter(function () {
-            clearTimeout(thisTime);
-            $('.nav-slide').addClass('hover');
-        })
-        $('.nav-slide').mouseleave(function () {
-            $('.nav-slide').removeClass('hover');
-        })
-
-    })
 </script>
 
 </body>

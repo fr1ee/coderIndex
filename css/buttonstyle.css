@@ -1,8 +1,18 @@
+.partTitle{
+    margin-top: 10px;
+    /* align-content: center; */
+    text-align: center;
+    border-radius: 20px;
+    height: 40px;
+    line-height: 40px;
+    font-size: x-large;
+    color: white;
+}
 /*  动画闪烁颜色  */
 @-webkit-keyframes greenPulse {
-    from { background-color: #b2da02; -webkit-box-shadow: 0 0 9px #c8c8c8; }
-    50% { background-color: #b8e809; -webkit-box-shadow: 0 0 28px #bbec09; }
-    to { background-color: #a7da02; -webkit-box-shadow: 0 0 9px #d1d1d1; }
+    from { background-color: #acdd0b; -webkit-box-shadow: 0 0 9px rgba(184, 232, 9, 0.29); }
+    50% { background-color: #ceff09; -webkit-box-shadow: 0 0 28px #cdff09; }
+    to { background-color: #acdd0d; -webkit-box-shadow: 0 0 9px rgba(235, 244, 166, 0.89); }
 }
 
 @-webkit-keyframes bluePulse {
