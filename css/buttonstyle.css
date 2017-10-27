@@ -28,6 +28,12 @@
     to { background-color: #630030; -webkit-box-shadow: 0 0 9px #333; }
 }
 
+@-webkit-keyframes firstBlue {
+    from { background-color: #0a9bc7; -webkit-box-shadow: 0 0 9px rgba(33, 33, 33, 0); }
+    50% { background-color: #18f1ec; -webkit-box-shadow: 0 0 18px #89e3e5; }
+    to { background-color: #0c9cc7; -webkit-box-shadow: 0 0 9px rgba(240, 240, 240, 0); }
+}
+
 /*  重复动画  */
 .animationRepeat{-webkit-animation-iteration-count: infinite;}
 
@@ -35,3 +41,4 @@
 .greenPulse.button{-webkit-animation-name:greenPulse;-webkit-animation-duration: 3s;}
 .bluePulse.button{-webkit-animation-name:bluePulse;-webkit-animation-duration:3s;}
 .magentaPulse.button{-webkit-animation-name:magentaPulse;-webkit-animation-duration:3s;}
+.firstBlue.button{-webkit-animation-name:firstBlue;-webkit-animation-duration:3s;}
