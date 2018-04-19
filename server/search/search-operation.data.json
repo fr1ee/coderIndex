@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1111,
+    "name": "选用",
+    "description": "选用"
+  },
+  {
+    "id": 1112,
+    "name": "建稿",
+    "description": "建稿"
+  },
+  {
+    "id": 1007,
+    "name": "收藏",
+    "description": "收藏"
+  },
+  {
+    "id": 1008,
+    "name": "分享",
+    "description": "分享"
+  } 
+
+]

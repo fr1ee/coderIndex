@@ -8,6 +8,8 @@ html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fiel
     font-family: 'microsoft yahei', verdana, Tahoma;
 }
 
+a{ text-decoration:none} 
+
 ol, ul, li {
     list-style: none;
     line-height: 22px;
@@ -101,7 +103,8 @@ body {
     margin: 0 auto;
     background-color: #fbf8a5;
     overflow-x: hidden;
-    background-image: url("../images/universe.jpg");
+    /* background-image: url("../images/EarthMap.jpg"); */
+    background-image: url("../images/monten.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -437,4 +440,20 @@ p#back-to-top a span{
 .img-samllsize{
     height: 100px;
     width: 100px;
+}
+.leftmenuli{
+    line-height: 50px;
+    color: white;
+    font-weight: 900;
+}
+.leftmenuli:hover{
+    background-color: rgb(24, 219, 105);
+}
+.noradius{
+    border-radius: 0;
+    border-radius: 0 !important
+}
+.fontStrong{
+    font-size: 20px;
+    font-weight: 900;
 }

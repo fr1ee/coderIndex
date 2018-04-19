@@ -2,7 +2,7 @@
     margin: 10px 200px;
     /* align-content: center; */
     text-align: center;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     height: 40px;
     line-height: 40px;
     font-size: x-large;
@@ -10,9 +10,9 @@
 }
 /*  动画闪烁颜色  */
 @-webkit-keyframes greenPulse {
-    from { background-color: #acdd0b; -webkit-box-shadow: 0 0 9px rgba(184, 232, 9, 0.29); }
-    50% { background-color: #ceff09; -webkit-box-shadow: 0 0 28px #cdff09; }
-    to { background-color: #acdd0d; -webkit-box-shadow: 0 0 9px rgba(235, 244, 166, 0.89); }
+    from { background-color: #007d9a; -webkit-box-shadow: 0 0 9px #333; }
+    50% { background-color: #2daebf; -webkit-box-shadow: 0 0 18px #2daebf; }
+    to { background-color: #007d9a; -webkit-box-shadow: 0 0 9px #333; }
 }
 
 @-webkit-keyframes bluePulse {
@@ -38,7 +38,7 @@
 .animationRepeat{-webkit-animation-iteration-count: infinite;}
 
 /*  动画名称、动画完成时间  */
-.greenPulse.button{-webkit-animation-name:greenPulse;-webkit-animation-duration: 3s;}
+.greenPulse.button{-webkit-animation-name:greenPulse;-webkit-animation-duration: 1s;}
 .bluePulse.button{-webkit-animation-name:bluePulse;-webkit-animation-duration:3s;}
 .magentaPulse.button{-webkit-animation-name:magentaPulse;-webkit-animation-duration:3s;}
 .firstBlue.button{-webkit-animation-name:firstBlue;-webkit-animation-duration:3s;}

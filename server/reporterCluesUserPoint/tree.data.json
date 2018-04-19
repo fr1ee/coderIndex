@@ -1,0 +1,26 @@
+[
+    {
+        "id": "A001", 
+        "name": "记者线索", 
+        "parentID": "0", 
+        "contentType": "1", 
+        "isLeaf": "1"
+        
+    },
+    {
+        "id": "A002", 
+        "name": "用户点题", 
+        "parentID": "0", 
+        "contentType": "1", 
+        "isLeaf": "1"
+        
+    },
+    {
+        "id": "A003", 
+        "name": "其他", 
+        "parentID": "0", 
+        "contentType": "1", 
+        "isLeaf": "1"
+        
+    }
+]

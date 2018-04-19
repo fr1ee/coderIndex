@@ -1,0 +1,67 @@
+{
+    "dropDown":[
+                {
+                    "dropdownTitle":"稿件分类",
+                    "subItem":[
+                        {"id":1, "name": ""},
+                        {"id":2, "name": "经济"},
+                        {"id":3, "name": "体育"},
+                        {"id":4, "name": "政治"},
+                        {"id":5, "name": "教育"},
+                        {"id":6, "name": "军事"},
+                        {"id":7, "name": "文化"}
+                    ]
+                },
+                {
+                    "dropdownTitle":"语种",
+                    "subItem":[
+                        {"id":0, "name": ""},
+                        {"id":"zh-CN", "name": "中文"},
+                        {"id":"zh-TW", "name": "中文（繁体）"},
+                        {"id":"en", "name": "英文"},
+                        {"id":"es", "name": "西文"},
+                        {"id":"fr", "name": "法文"},
+                        {"id":"ru", "name": "俄文"},
+                        {"id":"ar", "name": "阿文"},
+                        {"id":"pt", "name": "葡文"},
+                        {"id":"ja", "name": "日文"},
+                        {"id":"ko", "name": "朝文"},
+                        {"id":"zh-CN~en", "name": "中英"},
+                        {"id":"zh-CN~fr", "name": "中法"}
+                    ]
+                },
+                {
+                    "dropdownTitle":"供稿类别",
+                    "subItem":[
+                        {"id":0, "name": ""},
+                        {"id":"c0250001", "name": "国内新闻"},
+                        {"id":"c0250002", "name": "国际新闻"},
+                        {"id":"c0250003", "name": "中东新闻"},
+                        {"id":"c0250004", "name": "拉美新闻"},
+                        {"id":"c0250005", "name": "独联体新闻"},
+                        {"id":"c0250006", "name": "北美新闻"},
+                        {"id":"c0250007", "name": "欧洲新闻"},
+                        {"id":"c0250008", "name": "亚太新闻"},
+                        {"id":"c0250009", "name": "亚欧新闻"},
+                        {"id":"c0250010", "name": "非洲新闻"}
+                    ]
+                },
+                {
+                    "dropdownTitle":"稿件优先级",
+                    "subItem":[
+                        {"id":0, "name": ""},
+                        {"id":1, "name": "普通"},
+                        {"id":2, "name": "急"},
+                        {"id":3, "name": "特急"}
+                    ]
+                }
+            ],
+    "requiredText":[
+                {
+                    "textTitle":"关键字"
+                },{
+                    "textTitle":"主题词"
+                }
+            ]
+
+}

@@ -1,0 +1,39 @@
+{
+  "result": "\"null\"",
+  "data": [{
+    "content": [{
+      "corWord": ["错误"],
+      "errWord": "措误",
+      "errLevel": "1",
+      "errPos": 0
+    }, {
+      "corWord": ["错误"],
+      "errWord": "措误",
+      "errLevel": "1",
+      "errPos": 4
+    }, {
+      "corWord": ["错误"],
+      "errWord": "措误",
+      "errLevel": "1",
+      "errPos": 8
+    }, {
+      "corWord": ["错误"],
+      "errWord": "措误",
+      "errLevel": "1",
+      "errPos": 12
+    }, {
+      "corWord": ["<国际河流>"],
+      "errWord": "白头山天池调水",
+      "errLevel": "2",
+      "errPos": 16
+    }, {
+      "corWord": ["<敏感词>"],
+      "errWord": "在文化大革命",
+      "errLevel": "3",
+      "errPos": 25
+    }]
+  }],
+  "success": "1",
+  "errorMsg": "检校成功",
+  "_map_": "true"
+}

@@ -1,0 +1,20 @@
+[
+{
+    "mail": "zhang333@neusoft.com",
+    "headPortrait" : "public/assets/img/avatar04.png",
+    "processEvent": [
+      {
+        "processName": "待编",
+        "processNumber": "16"
+      },
+      {
+        "processName": "待审",
+        "processNumber": "56"
+      },
+      {
+        "processName": "已签",
+        "processNumber": "34"
+      }
+    ]
+}
+]

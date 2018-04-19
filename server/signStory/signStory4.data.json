@@ -1,0 +1,39 @@
+
+{
+	"docId": "201611030001", 
+	"priority" : 1,
+	"publishes" : [ {
+	    "channelType" : 3,
+	    "channel" : 3,
+	    "product" : "新华社公众号",
+	    "column1" : "时事新闻",
+	    "column2" : "",
+	    "column3" : "",
+	    "column4" : "",
+	    "column5" : "",
+	    "productDetail" : {
+	      "coverImageName" : "",
+	      "leadContent" : "第一个微信",
+	      "coverImageLarge" : "",
+	      "coverImageSmall" : "",
+	      "sourceStoryUrl" : ""
+	    }
+	  }, {
+	    "channelType" : 3,
+	    "channel" : 2,
+	    "product" : "新华网",
+	    "column1" : "时政1",
+	    "column2" : "时政2",
+	    "column3" : "时政3",
+	    "column4" : "",
+	    "column5" : "",
+	    "productDetail" : {
+	      "coverImageName" : "",
+	      "leadContent" : "第二个微信",
+	      "coverImageLarge" : "",
+	      "coverImageSmall" : "",
+	      "sourceStoryUrl" : ""
+	    }
+	  } ]
+}
+

@@ -1,0 +1,306 @@
+[
+	{
+    "id": 1030,
+    "name": "预览",
+    "iconclass":"previewN",
+    "description": "预览"
+  },
+  {
+    "id": 1031,
+    "name": "发布",
+    "iconclass":"publishN",
+    "description": "发布"
+  },
+  {
+    "id": 1001,
+    "name": "编辑",
+    "iconclass":"editorN",
+    "description": "编辑"
+  },
+  {
+    "id": 1002,
+    "name": "传稿",
+    "iconclass":"sendStoryN",
+    "description": "传稿"
+  },
+  {
+    "id": 1012,
+    "name": "加锁",
+    "iconclass":"lockingN",
+    "description": "加锁"
+  },
+
+  {
+    "id": 1014,
+    "name": "校对",
+    "iconclass":"proofN",
+    "description": "校对"
+  },
+  {
+    "id": 1015,
+    "name": "建稿",
+    "iconclass":"setStoryRepeatN",
+    "description": "建稿"
+  },
+  {
+    "id": 1018,
+    "name": "撤回",
+    "iconclass":"recallN",
+    "description": "撤回"
+  },
+  {
+    "id": 1033,
+    "name": "撤稿",
+    "iconclass":"getbackstoryN",
+    "description": "撤稿"
+  },
+  {
+    "id": 1016,
+    "name": "送校对",
+    "iconclass":"sendProofN",
+    "description": "送校对"
+  },
+  {
+    "id": 1017,
+    "name": "送审",
+    "iconclass":"sendCheckN",
+    "description": "送审"
+  },
+  {
+    "id": 1004,
+    "name": "发未定稿",
+    "iconclass":"sendUndecidedN",
+    "description": "发未定稿"
+  },
+  {
+    "id": 1003,
+    "name": "签发",
+    "iconclass":"issueN",
+    "description": "签发"
+  },
+  {
+    "id": 1005,
+    "name": "退回",
+    "iconclass":"sendBackN",
+    "description": "退回"
+  },
+  {
+    "id": 1009,
+    "name": "打印",
+    "iconclass":"printN",
+    "description": "打印"
+  },
+  {
+    "id": 1007,
+    "name": "收藏",
+    "iconclass":"collectionN",
+    "description": "收藏"
+  },
+  {
+    "id": 1008,
+    "name": "分享",
+    "iconclass":"shareN",
+    "description": "分享"
+  },
+  {
+    "id": 1020,
+    "name": "转签",
+    "iconclass":"changeSendN",
+    "description": "转签"
+  },
+  {
+    "id": 1021,
+    "name": "推荐",
+    "iconclass":"addN",
+    "description": "推荐"
+  },
+  {
+    "id": 1022,
+    "name": "置顶",
+    "iconclass":"putTopN",
+    "description": "置顶"
+  },
+  {
+    "id": 1023,
+    "name": "审核",
+    "iconclass":"checkingN",
+    "description": "审核"
+  },
+  {
+    "id": 1024,
+    "name": "调序",
+    "iconclass":"reorderN",
+    "description": "调序"
+  },
+  {
+    "id": 1026,
+    "name": "复制",
+    "iconclass":"copyN",
+    "description": "复制"
+  },
+  {
+    "id": 1025,
+    "name": "移动",
+    "iconclass":"moveN",
+    "description": "移动"
+  },
+  {
+    "id": 1027,
+    "name": "引用",
+    "iconclass":"recommendN",
+    "description": "引用"
+  },
+
+  {
+    "id": 1010,
+    "name": "淘汰",
+    "iconclass":"deleteN",
+    "description": "淘汰"
+  },
+  {
+    "id": 1028,
+    "name": "审定",
+    "iconclass":"checkSureN",
+    "description": "审定"
+  },
+  {
+    "id": 1013,
+    "name": "解锁",
+    "iconclass":"deBlockingN",
+    "description": "解锁"
+  },
+  {
+    "id": 1029,
+    "name": "校对完毕",
+    "iconclass":"proofFinishN",
+    "description": "校对完毕"
+  },
+  {
+    "id": 1032,
+    "name": "浏览",
+    "iconclass":"lookN",
+    "description": "浏览"
+  },
+  {
+	"id": 1034,
+	"name": "删除",
+	"iconclass":"deleteN",
+	"description": "删除"
+ },
+ {
+	"id": 1035,
+	"name": "检索",
+	"iconclass":"searchN",
+	"description": "检索"
+ },
+ {
+	"id": 1036,
+	"name": "建专题",
+	"iconclass":"createProject",
+	"description": "建专题"
+ },
+ {
+	"id": 1037,
+	"name": "查询",
+	"iconclass":"queryN",
+	"description": "查询"
+ },
+ {
+	"id": 1038,
+	"name": "复制链接",
+	"iconclass":"copyLinkN",
+	"description": "复制链接"
+ },
+ {
+	"id": 1039,
+	"name": "还原",
+	"iconclass":"restoreN",
+	"description": "还原"
+ },
+ {
+	"id": 1040,
+	"name": "配置",
+	"iconclass":"configurN",
+	"description": "配置"
+ },
+ {
+	"id": 1041,
+	"name": "加入组",
+	"iconclass":"addGroupN",
+	"description": "加入组"
+ },
+ {
+	"id": 1042,
+	"name": "报道详情",
+	"iconclass":"bdDetailN",
+	"description": "报道详情"
+ },
+ {
+	"id": 1043,
+	"name": "改稿",
+	"iconclass":"updateStoryN",
+	"description": "改稿"
+ },
+ {
+	"id": 1044,
+	"name": "撤稿",
+	"iconclass":"updateStoryN",
+	"description": "撤稿"
+ },
+  {
+    "id": 1045,
+    "name": "签送",
+    "iconclass":"sendUndecidedN",
+    "description": "签送"
+  },
+  {
+    "id": 1046,
+    "name": "跨系统传稿",
+    "iconclass":"sendStoryN",
+    "description": "跨系统传稿"
+  },
+  {
+    "id": 1047,
+    "name": "签发（备用）",
+    "iconclass":"issueN",
+    "description": "签发（备用）"
+  }
+ 
+]
+
+
+
+
+//
+//[
+// {
+//	"id": 26,
+//	"name": "个人专题",
+//	"clicked":"true"
+// },
+// {
+//	"id": 27,
+//	"name": "已签",//专题里用的
+//	"clicked":"false"
+// },
+// {
+//	"id": 28,
+//	"name": "回收站",
+//	"clicked":"false"
+// },
+// {
+//	"id": 29,
+//	"name": "选题",
+//	"clicked":"false"
+// },
+// {
+//	"id": 30,
+//	"name": "组稿",
+//	"clicked":"false"
+// },
+// {
+//	"id": 31,
+//	"name": "全部",
+//	"clicked":"false"
+// }
+//]

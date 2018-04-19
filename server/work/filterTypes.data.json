@@ -1,0 +1,45 @@
+{
+  "types": [
+    {
+      "conditionType":"mediaTypeId",
+      "id": "text",
+      "label": "文字"
+    },
+    {
+      "conditionType":"mediaTypeId",
+      "id": "multimedia",
+      "label": "多媒体"
+    },
+    {
+      "conditionType":"mediaTypeId",
+      "id": "photo",
+      "label": "图片"
+    },
+    {
+      "conditionType":"mediaTypeId",
+      "id": "graph",
+      "label": "数据图"
+    },
+    {
+      "conditionType":"mediaTypeId",
+      "id": "Atlas",
+      "label": "图集"
+    },
+    {
+      "conditionType":"mediaTypeId",
+      "id": "audio",
+      "label": "音频"
+    },
+    {
+      "conditionType":"mediaTypeId",
+      "id": "video",
+      "label": "视频"
+    }
+  ],
+  "dates":[
+    {"value":300, "label": "今天"},
+    {"value":301, "label": "这两天"},
+    {"value":302, "label": "7天内"},
+    {"value":303, "label": "30天内"}
+  ]
+}

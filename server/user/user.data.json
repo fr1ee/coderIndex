@@ -1,0 +1,174 @@
+[
+  {
+    "userId": "zhangsan",
+    "userName": "柳如烟",
+    "password": "zhangsan",
+    "avatar": "",
+    "userOrgRoles": [
+      {
+        "orgId": "A0B0C0",
+        "orgName": "记者部",
+        "roleId": "1",
+        "roleName": "分社记者"
+      }
+    ]
+  },
+  {
+    "userId": "lisi",
+    "userName": "马媛媛",
+    "password": "lisi",
+    "avatar": "",
+    "userOrgRoles": [
+      {
+        "orgId": "A0B0C1",
+        "orgName": "发稿部",
+        "roleId": "2",
+        "roleName": "分社发稿人"
+      }
+    ]
+  },
+  {
+    "userId": "wangwu",
+    "userName": "孟轲",
+    "password": "wangwu",
+    "avatar": "",
+    "userOrgRoles": [
+      {
+        "orgId": "A1B0C0",
+        "orgName": "编辑部",
+        "roleId": "3",
+        "roleName": "总社编辑"
+      }
+    ]
+  },
+  {
+    "userId": "liuliu",
+    "userName": "赵爱国",
+    "password": "liuliu",
+    "avatar": "",
+    "userOrgRoles": [
+      {
+        "orgId": "A1B0C1",
+        "orgName": "签发部",
+        "roleId": "4",
+        "roleName": "总社签发人"
+      }
+    ]
+  },
+  {
+    "userId": "jiaodui",
+    "userName": "赵雷",
+    "password": "jiaodui",
+    "avatar": "",
+    "userOrgRoles": [
+      {
+        "orgId": "A1B0C4",
+        "orgName": "校对组",
+        "roleId": "5",
+        "roleName": "总社校对"
+      }
+    ]
+  },
+  {
+    "userId": "fenshe",
+    "userName": "周浩然",
+    "password": "fenshe",
+    "avatar": "",
+    "userOrgRoles": [
+      {
+        "orgId": "A0B0C0",
+        "orgName": "记者部",
+        "roleId": "1",
+        "roleName": "分社记者"
+      },
+      {
+        "orgId": "A0B0C1",
+        "orgName": "发稿部",
+        "roleId": "2",
+        "roleName": "分社发稿人"
+      }
+    ]
+  },
+
+  {
+    "userId": "shenhe",
+    "userName": "沈河",
+    "password": "shenhe",
+    "avatar": "",
+    "userOrgRoles": [
+      {
+        "orgId": "A1B3C0",
+        "orgName": "审核部门",
+        "roleId": "7",
+        "roleName": "总社审核人"
+      }
+    ]
+  },
+  {
+    "userId": "zongshefa",
+    "userName": "忠慎发",
+    "password": "zongshefa",
+    "avatar": "",
+    "userOrgRoles": [
+      {
+        "orgId": "A1B4C0",
+        "orgName": "终审部门",
+        "roleId": "6",
+        "roleName": "终审发稿人"
+      }
+    ]
+  },
+  {
+    "userId": "zongshe",
+    "userName": "武杰",
+    "password": "zongshe",
+    "avatar": "",
+    "userOrgRoles": [
+      {
+        "orgId": "A1B0C0",
+        "orgName": "编辑部",
+        "roleId": "3",
+        "roleName": "总社编辑"
+      },
+      {
+        "orgId": "A1B0C1",
+        "orgName": "签发部",
+        "roleId": "4",
+        "roleName": "总社签发人"
+      }
+    ]
+  },
+  {
+    "userId": "all",
+    "userName": "王进",
+    "password": "all",
+    "avatar": "",
+    "userOrgRoles": [
+      {
+        "orgId": "A0B0C0",
+        "orgName": "记者部",
+        "roleId": "1",
+        "roleName": "分社记者"
+      },
+      {
+        "orgId": "A0B0C1",
+        "orgName": "发稿部",
+        "roleId": "2",
+        "roleName": "分社发稿人"
+      },
+      {
+        "orgId": "A1B0C0",
+        "orgName": "编辑部",
+        "roleId": "3",
+        "roleName": "总社编辑"
+      },
+      {
+        "password": "all",
+        "orgId": "A1B0C1",
+        "orgName": "签发部",
+        "roleId": "4",
+        "roleName": "总社签发人"
+      }
+    ]
+  }
+]

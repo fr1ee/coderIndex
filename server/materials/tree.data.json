@@ -1,0 +1,149 @@
+[
+    {
+        "id": "A001",
+        "name": "我的素材",
+        "parentID": "0",
+        "contentType": "1",
+        "isLeaf": "0",
+        "catalogItems": [
+            {
+                "id": "B001",
+                "name": "私有 ",
+                "parentID": "A01",
+                "contentType": "1",
+                "isLeaf": "0",
+                "catalogItems": [
+                    {
+                        "id": "C001",
+                        "name": "待分类",
+                        "parentID": "B001",
+                        "contentType": "1",
+                        "isLeaf": "0",
+                        "catalogItems": [
+                            {
+                                "id": "C006",
+                                "name": "中国图片无",
+                                "parentID": "C001",
+                                "contentType": "1",
+                                "isLeaf": "0",
+                                "catalogItems": [
+                                    {
+                                        "id": "C007",
+                                        "name": "北京图片6",
+                                        "parentID": "C006",
+                                        "contentType": "1",
+                                        "isLeaf": "1",
+                                        "catalogItems": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    
+                    {
+                        "id": 1887,
+                        "name": "t关于",
+                        "contentType": "1",
+                        "isLeaf": "1",
+                        "parentID": "B001",
+                        "catalogItems": []
+                    }
+                ]
+            },
+            {
+                "id": "B002",
+                "name": "公有",
+                "parentID": "A01",
+                "contentType": "1",
+                "isLeaf": "0",
+                "catalogItems": [
+                    {
+                        "id": "C003",
+                        "name": "孙杨图片3",
+                        "parentID": "B002",
+                        "contentType": "1",
+                        "isLeaf": "1",
+                        "catalogItems": []
+                    },
+                    {
+                        "id": 1144,
+                        "name": "孙杨5",
+                        "contentType": "1",
+                        "isLeaf": "1",
+                        "parentID": "B002",
+                        "catalogItems": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "A002",
+        "name": "公开素材",
+        "parentID": "0",
+        "contentType": "1",
+        "isLeaf": "0",
+        "catalogItems": [
+            {
+                "id": "B003",
+                "name": "本组 ",
+                "parentID": "A002",
+                "contentType": "1",
+                "isLeaf": "0",
+                "catalogItems": [
+                    {
+                        "id": "C003",
+                        "name": "孙杨图片3",
+                        "parentID": "B003",
+                        "contentType": "1",
+                        "isLeaf": "1",
+                        "catalogItems": []
+                    }
+                ]
+            },
+            {
+                "id": "B004",
+                "name": "a组",
+                "parentID": "A002",
+                "contentType": "1",
+                "isLeaf": "0",
+                "catalogItems": [
+                    {
+                        "id": "C005",
+                        "name": "孙杨图片5",
+                        "parentID": "B004",
+                        "contentType": "1",
+                        "isLeaf": "1",
+                        "catalogItems": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "A003",
+        "name": "报道组",
+        "parentID": "0",
+        "contentType": "1",
+        "isLeaf": "0",
+        "catalogItems": [
+            {
+                "id": "B0053",
+                "name": "本组 ",
+                "parentID": "A003",
+                "contentType": "1",
+                "isLeaf": "0",
+                "catalogItems": [
+                    {
+                        "id": "C0063",
+                        "name": "孙杨图片6",
+                        "parentID": "B0053",
+                        "contentType": "1",
+                        "isLeaf": "1",
+                        "catalogItems": []
+                    }
+                ]
+            }
+        ]
+    }
+]

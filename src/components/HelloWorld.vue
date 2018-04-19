@@ -6,7 +6,7 @@
             <div :id="item.name" class="large greenPulse button animationRepeat partTitle">{{item.typeTitle}}</div>
             <div class="row">
                 <div class="col-md-4 button_link" v-for="web in item.websites" :key="web.id">
-                    <div class="card">
+                    <div class="card noradius">
                         <div class="card-body">
                             <h3><a :href="web.url"  target="_blank">{{web.name}}</a></h3>
                             <!-- <img src="./images/code.png" alt="网站图标" class="float-left img-samllsize"> -->
@@ -29,7 +29,7 @@
             <ul class="nav-ul">
                 <li  v-for="classifications in webdata" :key="classifications.id">
                     <a href="#" class="home">
-                        <span>{{classifications.name}}</span>
+                        <span class="fontStrong">{{classifications.name}}</span>
                     </a>
                 </li>
              </ul>
@@ -37,8 +37,8 @@
         <div class="nav-slide">
             <div class="nav-slide-o" v-for="classifications in webdata" :key="classifications.id">
                 <ul>
-                    <li v-for="items in classifications.classification" :key="items.id">
-                        <span  v-on:click="gotoAnchor(items.name)">
+                    <li v-on:click="gotoAnchor(items.name)" class="leftmenuli" v-for="items in classifications.classification" :key="items.id">
+                        <span>
                             {{items.name}}
                         </span>
                     </li>
