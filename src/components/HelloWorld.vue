@@ -69,7 +69,7 @@
 import websiteData from "../../static/websites.json";
 import "../assets/js/jquery.min.js";
 import "../assets/js/index.js";
-console.log(websiteData);
+// console.log(websiteData);
 websiteData;
 export default {
   name: "HelloWorld",
@@ -80,15 +80,21 @@ export default {
       webdata: websiteData
     };
   },
-  computed: {
-  },
+  computed: {},
   methods: {
-    gotoAnchor: function (url) {
-        // alert();
-        url = '/#' + url;
-        this.$router.push({ path: url }) // -> /user/123
+    gotoAnchor: function(url) {
+      // alert();
+      url = "/#" + url;
+      this.$router.push({ path: url }); // -> /user/123
     }
-  } 
+  },
+  // 页面加载之前，用created钩子函数-获取网页数据
+  created() {
+    this.$http.get("http://localhost:3000/api/niceindex/all").then(data => {
+      console.log(data)
+      this.websiteData = data;
+    });
+  }
 };
 </script>
 
