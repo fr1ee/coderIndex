@@ -1,4 +1,4 @@
-[
+﻿[
     {
         "id": 1,
         "name": "学习",
@@ -9,15 +9,15 @@
                 "id": 1,
                 "name": "语言学习",
                 "totalNumber": 2,
-                "typeTitle": "人类语言学习",
+                "typeTitle": "语言学习",
                 "websites": [
                     {
                         "id": 1,
                         "icon": "",
-                        "name": "百度",
-                        "url": "//www.baidu.com",
-                        "discription": "最大的中文检索引擎",
-                        "sentence": "百度一下",
+                        "name": "百度翻译",
+                        "url": "//fanyi.baidu.com/",
+                        "discription": "百度翻译",
+                        "sentence": "百度翻译",
                         "clickTime": 0
                     },
                     {
@@ -105,7 +105,7 @@
         "id": 2,
         "name": "工作",
         "totalNumber": 2,
-        "title": "工作使我快乐!",
+        "title": "工作常用站点!",
         "classification": [
             {
                 "id": 5,
@@ -143,9 +143,9 @@
                     {
                         "id": 4,
                         "icon": "",
-                        "name": "Tower",
-                        "url": "//tower.im/",
-                        "discription": "Tower",
+                        "name": "禅道",
+                        "url": "//dev.xinhua-news.com/zentao/bug-browse-22-0-assigntome-0.html",
+                        "discription": "禅道",
                         "sentence": "项目管理工具",
                         "clickTime": 0
                     },
@@ -155,7 +155,7 @@
                         "name": "jenkins",
                         "url": "//cmp.xinhua.io:8888/jenkins",
                         "discription": "jenkins",
-                        "sentence": "发版工具",
+                        "sentence": "发版工具-注意千万别发生产",
                         "clickTime": 0
                     },
                     {
@@ -179,10 +179,29 @@
                     {
                         "id": 8,
                         "icon": "",
-                        "name": "演示统一后台管理",
+                        "name": "演示应用选项配置 sms",
                         "url": "//edit.xinhua-news.cn:8888/sms-web/index",
                         "discription": "演示统一后台管理",
                         "sentence": "演示统一后台管理",
+                        "clickTime": 0
+                    },
+                    {
+                        "id": 9,
+                        "icon": "",
+                        "name": "【生产】应用选项配置 sms",
+                        "url": "//cmp.xinhua-news.cn/sms-web/index",
+                        "discription": "【生产】应用选项配置 sms",
+                        "sentence": "请勿随意改动",
+                        "clickTime": 0
+                    }
+                    ,
+                    {
+                        "id": 10,
+                        "icon": "",
+                        "name": "【生产】监控画面",
+                        "url": "//cmp.xinhua.io:8888/j2Monitor/",
+                        "discription": "【生产】监控画面",
+                        "sentence": "【生产】监控画面",
                         "clickTime": 0
                     }
                 ]
@@ -196,19 +215,28 @@
                     {
                         "id": 2,
                         "icon": "",
-                        "name": "日报系统",
-                        "url": "",
-                        "discription": "",
-                        "sentence": "月末记得填日报",
+                        "name": "加班/请假",
+                        "url": "//202.123.106.102:25223/gjkf/doc/wikis/加班请假相关",
+                        "discription": "加班/请假",
+                        "sentence": "加班/请假",
+                        "clickTime": 0
+                    },
+                    {
+                        "id": 2,
+                        "icon": "",
+                        "name": "周报",
+                        "url": "//172.21.84.44:9000",
+                        "discription": "周报",
+                        "sentence": "记得周五填周报",
                         "clickTime": 0
                     },
                     {
                         "id": 3,
                         "icon": "",
                         "name": "邮箱网址",
-                        "url": "",
-                        "discription": "",
-                        "sentence": "",
+                        "url": "//mail.xinhua.org",
+                        "discription": "新华社网页版邮箱",
+                        "sentence": "新华社网页版邮箱",
                         "clickTime": 0
                     }
                 ]
@@ -231,27 +259,18 @@
                         "id": 1,
                         "icon": "",
                         "name": "爱奇艺",
-                        "url": "",
-                        "discription": "",
-                        "sentence": "",
+                        "url": "//www.iqiyi.com/",
+                        "discription": "爱奇艺",
+                        "sentence": "爱奇艺",
                         "clickTime": 0
                     },
                     {
                         "id": 2,
                         "icon": "",
-                        "name": "优酷",
-                        "url": "",
-                        "discription": "",
-                        "sentence": "",
-                        "clickTime": 0
-                    },
-                    {
-                        "id": 3,
-                        "icon": "",
                         "name": "bilibili",
-                        "url": "",
-                        "discription": "",
-                        "sentence": "",
+                        "url": "//www.bilibili.com/",
+                        "discription": "bilibili",
+                        "sentence": "bilibili",
                         "clickTime": 0
                     }
                 ]
@@ -267,34 +286,25 @@
             {
                 "id": 6,
                 "totalNumber": 2,
-                "name": "东软",
+                "name": "邮箱",
                 "typeTitle": "常用网站",
                 "websites": [
                     {
                         "id": 1,
                         "icon": "",
-                        "name": "东软VPN",
-                        "url": "//vpn.neusoft.com/",
-                        "discription": "出差必备",
-                        "sentence": "出差必备",
+                        "name": "QQ邮箱",
+                        "url": "//mail.qq.com/",
+                        "discription": "QQ邮箱",
+                        "sentence": "QQ邮箱",
                         "clickTime": 0
                     },
                     {
                         "id": 2,
                         "icon": "",
-                        "name": "日报系统",
-                        "url": "//processbase.neusoft.com/",
-                        "discription": "日报系统",
-                        "sentence": "月末记得填日报",
-                        "clickTime": 0
-                    },
-                    {
-                        "id": 3,
-                        "icon": "",
-                        "name": "报销系统",
-                        "url": "//i-expenses.neusoft.com/netFinance/login.do?method=begin",
-                        "discription": "报销系统",
-                        "sentence": "报销系统",
+                        "name": "163邮箱",
+                        "url": "//mail.163.com/",
+                        "discription": "163邮箱",
+                        "sentence": "163邮箱",
                         "clickTime": 0
                     }
                 ]
@@ -326,7 +336,7 @@
                         "id": 2,
                         "icon": "",
                         "name": "json压缩",
-                        "url": "//bejson.com",
+                        "url": "//www.sojson.com/yasuo.html",
                         "discription": "json压缩",
                         "sentence": "json压缩",
                         "clickTime": 0
