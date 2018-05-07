@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "id": 1,
         "name": "学习",
@@ -193,8 +193,7 @@
                         "discription": "【生产】应用选项配置 sms",
                         "sentence": "请勿随意改动",
                         "clickTime": 0
-                    }
-                    ,
+                    },
                     {
                         "id": 10,
                         "icon": "",
