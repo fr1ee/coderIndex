@@ -6,8 +6,8 @@
 
 <script>
 import "./assets/css/buttonstyle.css";
-import "./assets/css/index.css";
 import "./assets/css/bootstrap.min.css";
+import "./assets/css/index.css";
 export default {
   name: 'app'
 }
@@ -23,6 +23,6 @@ export default {
   margin-top: 60px;
 }
 @import "./assets/css/buttonstyle.css";
-@import "./assets/css/index.css";
 @import "./assets/css/bootstrap.css";
+@import "./assets/css/index.css";
 </style>

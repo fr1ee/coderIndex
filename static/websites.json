@@ -1,347 +1,1768 @@
 [
     {
-        "id": 2,
-        "name": "工作",
-        "totalNumber": 2,
-        "title": "工作常用站点!",
-        "classification": [
+        "id": 1,
+        "categoryName": "工作",
+        "sitesCount": 2,
+        "discription": "新华社工作常用站点",
+        "parentCategoryId": 0,
+        "sort": 0,
+        "children": [
             {
-                "id": 5,
-                "totalNumber": 2,
-                "name": "采编发",
-                "typeTitle": "采编发项目",
-                "websites": [
-                    {
-                        "id": 1,
-                        "icon": "",
-                        "name": "GitLab",
-                        "url": "//202.123.106.102:25223/",
-                        "discription": "项目GitLab",
-                        "sentence": "项目GitLab",
-                        "clickTime": 0
-                    },
+                "id": 9,
+                "categoryName": "采编发",
+                "sitesCount": 0,
+                "discription": "采编发",
+                "parentCategoryId": 1,
+                "sort": 0,
+                "weburls": [
                     {
                         "id": 2,
-                        "icon": "",
-                        "name": "采编发生产",
-                        "url": "//cmp.xinhua-news.cn/",
-                        "discription": "生产环境访问网址",
-                        "sentence": "生产环境访问网址",
-                        "clickTime": 0
+                        "urlName": "生产",
+                        "URL": "//cmp.xinhua-news.cn/",
+                        "categoryId": 9,
+                        "discription": "采编发生产网址",
+                        "heat": 10,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
                     },
                     {
                         "id": 3,
-                        "icon": "",
-                        "name": "采编发演示",
-                        "url": "//edit.xinhua-news.cn:8888",
-                        "discription": "演示环境访问网址",
-                        "sentence": "演示环境访问网址",
-                        "clickTime": 0
-                    },
-                    {
-                        "id": 4,
-                        "icon": "",
-                        "name": "禅道",
-                        "url": "//dev.xinhua-news.com/zentao/bug-browse-22-0-assigntome-0.html",
-                        "discription": "禅道",
-                        "sentence": "项目管理工具",
-                        "clickTime": 0
-                    },
-                    {
-                        "id": 5,
-                        "icon": "",
-                        "name": "jenkins",
-                        "url": "//cmp.xinhua.io:8888/jenkins",
-                        "discription": "jenkins",
-                        "sentence": "发版工具-注意千万别发生产",
-                        "clickTime": 0
+                        "urlName": "演示",
+                        "URL": "//edit.xinhua-news.cn:8888",
+                        "categoryId": 9,
+                        "discription": "编发演示地址",
+                        "heat": 9,
+                        "clickCount": 0,
+                        "coverimage": 0,
+                        "webIcon": 0,
+                        "ip": null
                     },
                     {
                         "id": 6,
-                        "icon": "",
-                        "name": "本机测试",
-                        "url": "//localhost:4200/",
-                        "discription": "本机测试",
-                        "sentence": "本机测试Localhost",
-                        "clickTime": 0
+                        "urlName": "本机测试",
+                        "URL": "//localhost:4200/",
+                        "categoryId": 9,
+                        "discription": "采编本机测试Localhost",
+                        "heat": 8,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
                     },
                     {
-                        "id": 7,
-                        "icon": "",
-                        "name": "演示zookeeper的管理画面",
-                        "url": "//172.21.84.16:8080/dubbo-admin/",
-                        "discription": "演示zookeeper的管理画面",
-                        "sentence": "演示zookeeper的管理画面",
-                        "clickTime": 0
+                        "id": 5,
+                        "urlName": "jenkins",
+                        "URL": "//cmp.xinhua.io:8888/jenkins",
+                        "categoryId": 9,
+                        "discription": "发版工具-注意千万别随便发生产",
+                        "heat": 7,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
                     },
                     {
                         "id": 8,
-                        "icon": "",
-                        "name": "演示应用选项配置 sms",
-                        "url": "//edit.xinhua-news.cn:8888/sms-web/index",
-                        "discription": "演示统一后台管理",
-                        "sentence": "演示统一后台管理",
-                        "clickTime": 0
+                        "urlName": "演示SMS",
+                        "URL": "//edit.xinhua-news.cn:8888/sms-web/index",
+                        "categoryId": 9,
+                        "discription": "演示应用选项配置 sms",
+                        "heat": 6,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
                     },
                     {
                         "id": 9,
-                        "icon": "",
-                        "name": "【生产】应用选项配置 sms",
-                        "url": "//cmp.xinhua-news.cn/sms-web/index",
-                        "discription": "【生产】应用选项配置 sms",
-                        "sentence": "请勿随意改动",
-                        "clickTime": 0
-                    }
-                    ,
+                        "urlName": "生产SMS",
+                        "URL": "//cmp.xinhua-news.cn/sms-web/index",
+                        "categoryId": 9,
+                        "discription": "【生产】应用选项配置 sms-请勿随意改动",
+                        "heat": 5,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 1,
+                        "urlName": "前端GitLab",
+                        "URL": "//gitlab-cmp.xhs.io/CMPFED/CMP",
+                        "categoryId": 9,
+                        "discription": "项目GitLab",
+                        "heat": 1,
+                        "clickCount": 1,
+                        "coverimage": 1,
+                        "webIcon": 1,
+                        "ip": "172.21.104.49"
+                    },
+                    {
+                        "id": 4,
+                        "urlName": "禅道",
+                        "URL": "//dev.xinhua-news.com/zentao",
+                        "categoryId": 9,
+                        "discription": "禅道-项目管理工具",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 7,
+                        "urlName": "zookeeper",
+                        "URL": "//172.21.84.16:8080/dubbo-admin/",
+                        "categoryId": 9,
+                        "discription": "演示zookeeper的管理画面",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
                     {
                         "id": 10,
-                        "icon": "",
-                        "name": "【生产】监控画面",
-                        "url": "//cmp.xinhua.io:8888/j2Monitor/",
+                        "urlName": "【生产】监控画面",
+                        "URL": "//cmp.xinhua.io:8888/j2Monitor/",
+                        "categoryId": 9,
                         "discription": "【生产】监控画面",
-                        "sentence": "【生产】监控画面",
-                        "clickTime": 0
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
                     }
-                ]
+                ],
+                "children": null
             },
             {
-                "id": 6,
-                "totalNumber": 2,
-                "name": "工作常用",
-                "typeTitle": "工作常用站点",
-                "websites": [
+                "id": 10,
+                "categoryName": "工作常用",
+                "sitesCount": 0,
+                "discription": "工作常用站点",
+                "parentCategoryId": 1,
+                "sort": 0,
+                "weburls": [
                     {
-                        "id": 2,
-                        "icon": "",
-                        "name": "加班/请假",
-                        "url": "//202.123.106.102:25223/gjkf/doc/wikis/加班请假相关",
+                        "id": 11,
+                        "urlName": "加班/请假",
+                        "URL": "http://gitlab-cmp.xhs.io/jsjdev/doc/wikis/%E5%8A%A0%E7%8F%AD%E8%AF%B7%E5%81%87%E7%9B%B8%E5%85%B3",
+                        "categoryId": 10,
                         "discription": "加班/请假",
-                        "sentence": "加班/请假",
-                        "clickTime": 0
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
                     },
                     {
-                        "id": 2,
-                        "icon": "",
-                        "name": "周报",
-                        "url": "//172.21.84.44:9000",
-                        "discription": "周报",
-                        "sentence": "记得周五填周报",
-                        "clickTime": 0
+                        "id": 12,
+                        "urlName": "周报",
+                        "URL": "//172.21.84.44:9000",
+                        "categoryId": 10,
+                        "discription": "记得周五填周报",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
                     },
                     {
-                        "id": 3,
-                        "icon": "",
-                        "name": "邮箱网址",
-                        "url": "//mail.xinhua.org",
+                        "id": 13,
+                        "urlName": "邮箱网址",
+                        "URL": "//mail.xinhua.org",
+                        "categoryId": 10,
                         "discription": "新华社网页版邮箱",
-                        "sentence": "新华社网页版邮箱",
-                        "clickTime": 0
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
                     }
-                ]
+                ],
+                "children": null
             }
         ]
     },
     {
-        "id": 3,
-        "name": "娱乐",
-        "totalNumber": 2,
-        "title": "\\(^o^)/~",
-        "classification": [
+        "id": 2,
+        "categoryName": "编程",
+        "sitesCount": 0,
+        "discription": "研发工程师必备网站",
+        "parentCategoryId": 0,
+        "sort": 0,
+        "children": [
             {
-                "id": 6,
-                "totalNumber": 2,
-                "name": "视频",
-                "typeTitle": "视频网站",
-                "websites": [
+                "id": 3,
+                "categoryName": "Java",
+                "sitesCount": 0,
+                "discription": "Java",
+                "parentCategoryId": 2,
+                "sort": 0,
+                "children": null
+            },
+            {
+                "id": 23,
+                "categoryName": "Android",
+                "sitesCount": 0,
+                "discription": "Android",
+                "parentCategoryId": 2,
+                "sort": 0,
+                "weburls": [
                     {
-                        "id": 1,
-                        "icon": "",
-                        "name": "爱奇艺",
-                        "url": "//www.iqiyi.com/",
-                        "discription": "爱奇艺",
-                        "sentence": "爱奇艺",
-                        "clickTime": 0
+                        "id": 25,
+                        "urlName": "玩Android",
+                        "URL": "http://wanandroid.com/",
+                        "categoryId": 23,
+                        "discription": "玩Android",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
                     },
                     {
-                        "id": 2,
-                        "icon": "",
-                        "name": "bilibili",
-                        "url": "//www.bilibili.com/",
-                        "discription": "bilibili",
-                        "sentence": "bilibili",
-                        "clickTime": 0
+                        "id": 31,
+                        "urlName": "AndroidStudio",
+                        "URL": "http://www.androiddevtools.cn/",
+                        "categoryId": 23,
+                        "discription": "AndroidStudio",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 52,
+                        "urlName": "安卓巴士",
+                        "URL": "http://www.apkbus.com/",
+                        "categoryId": 23,
+                        "discription": "安卓巴士",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
                     }
-                ]
+                ],
+                "children": null
+            },
+            {
+                "id": 27,
+                "categoryName": "编程工具",
+                "sitesCount": null,
+                "discription": "编程工具",
+                "parentCategoryId": 2,
+                "sort": 0,
+                "weburls": [
+                    {
+                        "id": 43,
+                        "urlName": "SQL",
+                        "URL": "http://tool.lu/sql/",
+                        "categoryId": 27,
+                        "discription": "SQL",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 45,
+                        "urlName": "程序员在线工具",
+                        "URL": "http://www.ofmonkey.com/",
+                        "categoryId": 27,
+                        "discription": "程序员在线工具",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    }
+                ],
+                "children": null
+            },
+            {
+                "id": 29,
+                "categoryName": "开放平台",
+                "sitesCount": null,
+                "discription": "开放平台",
+                "parentCategoryId": 2,
+                "sort": 0,
+                "weburls": [
+                    {
+                        "id": 53,
+                        "urlName": "阿里开放平台",
+                        "URL": "http://open.uc.cn",
+                        "categoryId": 29,
+                        "discription": "阿里开放平台",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 54,
+                        "urlName": "360开放平台",
+                        "URL": "http://dev.360.cn",
+                        "categoryId": 29,
+                        "discription": "360开放平台",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 55,
+                        "urlName": "腾讯开放平台\r\n",
+                        "URL": "http://open.qq.com",
+                        "categoryId": 29,
+                        "discription": "腾讯开放平台\r\n",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 56,
+                        "urlName": "小米开放平台",
+                        "URL": "https://dev.mi.com/console",
+                        "categoryId": 29,
+                        "discription": "小米开放平台",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 57,
+                        "urlName": "百度开放平台",
+                        "URL": "http://app.baidu.com",
+                        "categoryId": 29,
+                        "discription": "百度开放平台",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 58,
+                        "urlName": "微信开放平台",
+                        "URL": "https://open.weixin.qq.com",
+                        "categoryId": 29,
+                        "discription": "微信开放平台",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 59,
+                        "urlName": "华为开发者联盟",
+                        "URL": "http://developer.huawei.com",
+                        "categoryId": 29,
+                        "discription": "华为开发者联盟",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 60,
+                        "urlName": "oppo开放平台",
+                        "URL": "https://open.oppomobile.com",
+                        "categoryId": 29,
+                        "discription": "oppo开放平台",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 61,
+                        "urlName": "vivo开放平台",
+                        "URL": "https://dev.vivo.com.cn",
+                        "categoryId": 29,
+                        "discription": "vivo开放平台",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 62,
+                        "urlName": "高德开放平台",
+                        "URL": "http://lbs.amap.com",
+                        "categoryId": 29,
+                        "discription": "高德开放平台",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 63,
+                        "urlName": "百度地图开放平台",
+                        "URL": "http://lbsyun.baidu.com",
+                        "categoryId": 29,
+                        "discription": "百度地图开放平台",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    }
+                ],
+                "children": null
+            },
+            {
+                "id": 30,
+                "categoryName": "服务器类",
+                "sitesCount": null,
+                "discription": "服务器类",
+                "parentCategoryId": 2,
+                "sort": 0,
+                "weburls": [
+                    {
+                        "id": 64,
+                        "urlName": "亚马逊云",
+                        "URL": "https://aws.amazon.com",
+                        "categoryId": 30,
+                        "discription": "亚马逊云",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 65,
+                        "urlName": "阿里云\r\n",
+                        "URL": "https://www.aliyun.com",
+                        "categoryId": 30,
+                        "discription": "阿里云\r\n",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 66,
+                        "urlName": "京东云",
+                        "URL": "https://www.jcloud.com/index",
+                        "categoryId": 30,
+                        "discription": "京东云",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    }
+                ],
+                "children": null
             }
         ]
     },
     {
         "id": 4,
-        "name": "生活",
-        "totalNumber": 2,
-        "title": "生，活，生活",
-        "classification": [
+        "categoryName": "休闲",
+        "sitesCount": 0,
+        "discription": "日常娱乐站点",
+        "parentCategoryId": 0,
+        "sort": 0,
+        "children": [
             {
-                "id": 6,
-                "totalNumber": 2,
-                "name": "邮箱",
-                "typeTitle": "常用网站",
-                "websites": [
+                "id": 11,
+                "categoryName": "视频",
+                "sitesCount": 0,
+                "discription": "视频网站",
+                "parentCategoryId": 4,
+                "sort": 0,
+                "weburls": [
                     {
-                        "id": 1,
-                        "icon": "",
-                        "name": "QQ邮箱",
-                        "url": "//mail.qq.com/",
-                        "discription": "QQ邮箱",
-                        "sentence": "QQ邮箱",
-                        "clickTime": 0
+                        "id": 92,
+                        "urlName": "爱奇艺",
+                        "URL": "http://www.iqiyi.com",
+                        "categoryId": 11,
+                        "discription": "爱奇艺",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
                     },
                     {
-                        "id": 2,
-                        "icon": "",
-                        "name": "163邮箱",
-                        "url": "//mail.163.com/",
-                        "discription": "163邮箱",
-                        "sentence": "163邮箱",
-                        "clickTime": 0
+                        "id": 94,
+                        "urlName": "优 酷 网",
+                        "URL": "http://www.youku.com",
+                        "categoryId": 11,
+                        "discription": "优 酷 网",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 95,
+                        "urlName": "哔哩哔哩",
+                        "URL": "https://www.bilibili.com",
+                        "categoryId": 11,
+                        "discription": "哔哩哔哩",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 97,
+                        "urlName": "百度视频",
+                        "URL": "http://v.baidu.com",
+                        "categoryId": 11,
+                        "discription": "百度视频",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 98,
+                        "urlName": "腾讯视频",
+                        "URL": "http://v.qq.com/",
+                        "categoryId": 11,
+                        "discription": "腾讯视频",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 99,
+                        "urlName": "芒果TV",
+                        "URL": "http://www.mgtv.com",
+                        "categoryId": 11,
+                        "discription": "芒果TV",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 100,
+                        "urlName": "搜狐视频",
+                        "URL": "http://tv.sohu.com",
+                        "categoryId": 11,
+                        "discription": "搜狐视频",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 116,
+                        "urlName": "斗鱼TV",
+                        "URL": "https://www.douyu.com/",
+                        "categoryId": 11,
+                        "discription": "斗鱼TV",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 117,
+                        "urlName": "AcFun弹幕",
+                        "URL": "http://www.acfun.cn",
+                        "categoryId": 11,
+                        "discription": "AcFun弹幕",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
                     }
-                ]
+                ],
+                "children": null
+            },
+            {
+                "id": 12,
+                "categoryName": "新闻",
+                "sitesCount": 0,
+                "discription": "新闻",
+                "parentCategoryId": 4,
+                "sort": 0,
+                "weburls": [
+                    {
+                        "id": 77,
+                        "urlName": "人民网",
+                        "URL": "http://www.people.com.cn",
+                        "categoryId": 12,
+                        "discription": "人民网",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 78,
+                        "urlName": "新华网",
+                        "URL": "http://www.xinhuanet.com",
+                        "categoryId": 12,
+                        "discription": "新华网",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 79,
+                        "urlName": "央视网",
+                        "URL": "http://www.cctv.com",
+                        "categoryId": 12,
+                        "discription": "央视网",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 80,
+                        "urlName": "国际在线",
+                        "URL": "http://www.cri.cn",
+                        "categoryId": 12,
+                        "discription": "国际在线",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 81,
+                        "urlName": "中国日报",
+                        "URL": "http://cn.chinadaily.com.cn",
+                        "categoryId": 12,
+                        "discription": "中国日报",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 82,
+                        "urlName": "中国网",
+                        "URL": "http://www.china.com.cn/",
+                        "categoryId": 12,
+                        "discription": "中国网",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 83,
+                        "urlName": "中经网",
+                        "URL": "http://www.ce.cn",
+                        "categoryId": 12,
+                        "discription": "中经网",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 84,
+                        "urlName": "光明网",
+                        "URL": "http://www.gmw.cn/",
+                        "categoryId": 12,
+                        "discription": "光明网",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 85,
+                        "urlName": "央广网",
+                        "URL": "http://www.cnr.cn",
+                        "categoryId": 12,
+                        "discription": "央广网",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 86,
+                        "urlName": "中青网",
+                        "URL": "http://www.youth.cn",
+                        "categoryId": 12,
+                        "discription": "中青网",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 87,
+                        "urlName": "网信网",
+                        "URL": "http://www.cac.gov.cn",
+                        "categoryId": 12,
+                        "discription": "网信网",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 90,
+                        "urlName": "新浪",
+                        "URL": "http://www.sina.com.cn",
+                        "categoryId": 12,
+                        "discription": "新浪",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 91,
+                        "urlName": "搜狐",
+                        "URL": "http://www.sohu.com",
+                        "categoryId": 12,
+                        "discription": "搜狐",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 93,
+                        "urlName": "凤 凰 网",
+                        "URL": "http://www.ifeng.com",
+                        "categoryId": 12,
+                        "discription": "凤 凰 网",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 101,
+                        "urlName": " 腾讯新闻",
+                        "URL": "http://www.qq.com",
+                        "categoryId": 12,
+                        "discription": " 腾讯新闻",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 102,
+                        "urlName": "百度新闻",
+                        "URL": "http://news.baidu.com",
+                        "categoryId": 12,
+                        "discription": "百度新闻",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 103,
+                        "urlName": "参考消息",
+                        "URL": "http://www.cankaoxiaoxi.com",
+                        "categoryId": 12,
+                        "discription": "参考消息",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 104,
+                        "urlName": "环球网",
+                        "URL": "http://www.huanqiu.com",
+                        "categoryId": 12,
+                        "discription": "环球网",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 105,
+                        "urlName": "澎湃新闻",
+                        "URL": "http://www.thepaper.cn",
+                        "categoryId": 12,
+                        "discription": "澎湃新闻",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    }
+                ],
+                "children": null
+            },
+            {
+                "id": 13,
+                "categoryName": "翻墙",
+                "sitesCount": 0,
+                "discription": "需要翻墙的社交娱乐网站",
+                "parentCategoryId": 4,
+                "sort": 0,
+                "children": null
+            },
+            {
+                "id": 25,
+                "categoryName": "知识类",
+                "sitesCount": null,
+                "discription": "知识类",
+                "parentCategoryId": 4,
+                "sort": 0,
+                "weburls": [
+                    {
+                        "id": 29,
+                        "urlName": "知乎",
+                        "URL": "http://www.zhihu.com/",
+                        "categoryId": 25,
+                        "discription": "知乎",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    }
+                ],
+                "children": null
             }
         ]
     },
     {
         "id": 5,
-        "name": "工具",
-        "totalNumber": 2,
-        "title": "工欲善其事必先利其器",
-        "classification": [
+        "categoryName": "生活",
+        "sitesCount": 0,
+        "discription": "生活",
+        "parentCategoryId": 0,
+        "sort": 0,
+        "children": [
             {
-                "id": 1,
-                "name": "格式化工具",
-                "totalNumber": 2,
-                "typeTitle": "格式化工具",
-                "websites": [
+                "id": 24,
+                "categoryName": "邮箱",
+                "sitesCount": 0,
+                "discription": "邮箱",
+                "parentCategoryId": 5,
+                "sort": 0,
+                "weburls": [
                     {
-                        "id": 1,
-                        "icon": "",
-                        "name": "json格式化",
-                        "url": "//bejson.com",
-                        "discription": "json格式化",
-                        "sentence": "json格式化",
-                        "clickTime": 0
+                        "id": 26,
+                        "urlName": "谷歌邮箱",
+                        "URL": "https://mail.google.com/mail/",
+                        "categoryId": 24,
+                        "discription": "谷歌邮箱",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
                     },
                     {
-                        "id": 2,
-                        "icon": "",
-                        "name": "json压缩",
-                        "url": "//www.sojson.com/yasuo.html",
-                        "discription": "json压缩",
-                        "sentence": "json压缩",
-                        "clickTime": 0
+                        "id": 27,
+                        "urlName": "QQ邮箱",
+                        "URL": "https://mail.qq.com/",
+                        "categoryId": 24,
+                        "discription": "QQ邮箱",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 28,
+                        "urlName": "网易邮箱",
+                        "URL": "http://mail.163.com/",
+                        "categoryId": 24,
+                        "discription": "网易邮箱",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
                     }
-                ]
+                ],
+                "children": null
+            },
+            {
+                "id": 26,
+                "categoryName": "日常工具",
+                "sitesCount": null,
+                "discription": "语言翻译，知识搜索",
+                "parentCategoryId": 5,
+                "sort": 0,
+                "weburls": [
+                    {
+                        "id": 33,
+                        "urlName": "Google翻译",
+                        "URL": "https://translate.google.cn",
+                        "categoryId": 26,
+                        "discription": "Google在线翻译",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    }
+                ],
+                "children": null
+            },
+            {
+                "id": 31,
+                "categoryName": "招聘求职",
+                "sitesCount": null,
+                "discription": "招聘求职",
+                "parentCategoryId": 5,
+                "sort": 0,
+                "weburls": [
+                    {
+                        "id": 67,
+                        "urlName": "智联招聘",
+                        "URL": "http://www.zhaopin.com",
+                        "categoryId": 31,
+                        "discription": "智联招聘",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 68,
+                        "urlName": "前程无忧",
+                        "URL": "http://www.51job.com/",
+                        "categoryId": 31,
+                        "discription": "前程无忧",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 69,
+                        "urlName": "拉钩网",
+                        "URL": "https://www.lagou.com",
+                        "categoryId": 31,
+                        "discription": "拉钩网",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 70,
+                        "urlName": "猎聘网",
+                        "URL": "https://www.liepin.com",
+                        "categoryId": 31,
+                        "discription": "猎聘网",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 71,
+                        "urlName": "中华英才网",
+                        "URL": "http://www.chinahr.com",
+                        "categoryId": 31,
+                        "discription": "中华英才网",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 72,
+                        "urlName": "大街网",
+                        "URL": "https://www.dajie.com",
+                        "categoryId": 31,
+                        "discription": "大街网",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 73,
+                        "urlName": "csdn招聘",
+                        "URL": "http://job.csdn.ne",
+                        "categoryId": 31,
+                        "discription": "csdn招聘",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 74,
+                        "urlName": "内推网",
+                        "URL": "http://www.neitui.me",
+                        "categoryId": 31,
+                        "discription": "内推网",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 75,
+                        "urlName": "100offer",
+                        "URL": "https://cn.100offer.com",
+                        "categoryId": 31,
+                        "discription": "100offer",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 76,
+                        "urlName": "Boss直聘",
+                        "URL": "http://www.zhipin.com",
+                        "categoryId": 31,
+                        "discription": "Boss直聘",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    }
+                ],
+                "children": null
+            },
+            {
+                "id": 32,
+                "categoryName": "社交",
+                "sitesCount": null,
+                "discription": "社交",
+                "parentCategoryId": 5,
+                "sort": 0,
+                "weburls": [
+                    {
+                        "id": 88,
+                        "urlName": "贴吧",
+                        "URL": "http://tieba.baidu.com",
+                        "categoryId": 32,
+                        "discription": "贴吧",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 89,
+                        "urlName": "微博",
+                        "URL": "https://weibo.com",
+                        "categoryId": 32,
+                        "discription": "微博",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 115,
+                        "urlName": "豆瓣",
+                        "URL": "https://www.douban.com/",
+                        "categoryId": 32,
+                        "discription": "豆瓣",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    }
+                ],
+                "children": null
+            },
+            {
+                "id": 34,
+                "categoryName": "购物网站",
+                "sitesCount": null,
+                "discription": "购物",
+                "parentCategoryId": 5,
+                "sort": 0,
+                "weburls": [
+                    {
+                        "id": 106,
+                        "urlName": "苏宁易购",
+                        "URL": "https://www.suning.com",
+                        "categoryId": 34,
+                        "discription": "苏宁易购",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 107,
+                        "urlName": "网易严选",
+                        "URL": "http://you.163.com",
+                        "categoryId": 34,
+                        "discription": "网易严选",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 108,
+                        "urlName": "闲鱼",
+                        "URL": "https://2.taobao.com",
+                        "categoryId": 34,
+                        "discription": "闲鱼",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 109,
+                        "urlName": "美团",
+                        "URL": "https://www.meituan.com/",
+                        "categoryId": 34,
+                        "discription": "美团",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 110,
+                        "urlName": "当当网",
+                        "URL": "http://www.dangdang.com",
+                        "categoryId": 34,
+                        "discription": "当当网",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 111,
+                        "urlName": "蘑菇街",
+                        "URL": "http://www.mogujie.com",
+                        "categoryId": 34,
+                        "discription": "蘑菇街",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 112,
+                        "urlName": "什么值得买",
+                        "URL": "https://www.smzdm.com",
+                        "categoryId": 34,
+                        "discription": "什么值得买",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 113,
+                        "urlName": "京东",
+                        "URL": "//www.jd.com",
+                        "categoryId": 34,
+                        "discription": "京东",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 114,
+                        "urlName": "小米官网",
+                        "URL": "http://www.mi.com",
+                        "categoryId": 34,
+                        "discription": "小米官网",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    }
+                ],
+                "children": null
             }
         ]
     },
     {
-        "id": 1,
-        "name": "学习",
-        "totalNumber": 2,
-        "title": "学习使我快乐!",
-        "classification": [
+        "id": 6,
+        "categoryName": "学习",
+        "sitesCount": 0,
+        "discription": "学习新知识",
+        "parentCategoryId": 0,
+        "sort": 0,
+        "children": [
             {
-                "id": 1,
-                "name": "语言学习",
-                "totalNumber": 2,
-                "typeTitle": "语言学习",
-                "websites": [
+                "id": 14,
+                "categoryName": "编程学习",
+                "sitesCount": 0,
+                "discription": "编程学习",
+                "parentCategoryId": 6,
+                "sort": 0,
+                "weburls": [
                     {
-                        "id": 1,
-                        "icon": "",
-                        "name": "百度翻译",
-                        "url": "//fanyi.baidu.com/",
-                        "discription": "百度翻译",
-                        "sentence": "百度翻译",
-                        "clickTime": 0
+                        "id": 23,
+                        "urlName": "掘金",
+                        "URL": "https://juejin.im/",
+                        "categoryId": 14,
+                        "discription": "掘金",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
                     },
                     {
-                        "id": 2,
-                        "icon": "",
-                        "name": "50音图",
-                        "url": "//jp.hjenglish.com/subject/pronounce/",
-                        "discription": "沪江日语的五十音图",
-                        "sentence": "沪江日语的五十音图",
-                        "clickTime": 0
+                        "id": 24,
+                        "urlName": "简书",
+                        "URL": "http://www.jianshu.com/ ",
+                        "categoryId": 14,
+                        "discription": "简书",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 30,
+                        "urlName": "空指针",
+                        "URL": "http://www.kongzhizhen.com/",
+                        "categoryId": 14,
+                        "discription": "空指针",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 48,
+                        "urlName": "慕课网\r\n",
+                        "URL": "http://www.imooc.com",
+                        "categoryId": 14,
+                        "discription": "慕课网\r\n慕课网\r\n",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 49,
+                        "urlName": "极客学院",
+                        "URL": "http://www.jikexueyuan.com",
+                        "categoryId": 14,
+                        "discription": "极客学院",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 51,
+                        "urlName": "麦子学院",
+                        "URL": "http://www.maiziedu.com",
+                        "categoryId": 14,
+                        "discription": "麦子学院",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
                     }
-                ]
+                ],
+                "children": null
             },
             {
-                "id": 2,
-                "totalNumber": 2,
-                "name": "JAVA",
-                "typeTitle": "JAVA",
-                "websites": [
+                "id": 15,
+                "categoryName": "思维逻辑",
+                "sitesCount": 0,
+                "discription": "思维逻辑",
+                "parentCategoryId": 6,
+                "sort": 0,
+                "weburls": [
                     {
-                        "id": 1,
-                        "icon": "",
-                        "name": "50音图",
-                        "url": "//jp.hjenglish.com/subject/pronounce/",
-                        "discription": "沪江日语的五十音图",
-                        "sentence": "沪江日语的五十音图",
-                        "clickTime": 0
+                        "id": 47,
+                        "urlName": "网易云课堂",
+                        "URL": "http://study.163.com/",
+                        "categoryId": 15,
+                        "discription": "网易云课堂",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 50,
+                        "urlName": "腾讯课堂",
+                        "URL": "https://ke.qq.com/",
+                        "categoryId": 15,
+                        "discription": "腾讯课堂",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
                     }
-                ]
+                ],
+                "children": null
             },
             {
-                "id": 3,
-                "totalNumber": 2,
-                "name": "大数据",
-                "typeTitle": "大数据",
-                "websites": [
+                "id": 33,
+                "categoryName": "资源文献",
+                "sitesCount": null,
+                "discription": "资源文献",
+                "parentCategoryId": 6,
+                "sort": 0,
+                "weburls": [
                     {
-                        "id": 1,
-                        "icon": "",
-                        "name": "机器学习框架",
-                        "url": "//www.tensorflow.org/",
-                        "discription": "机器学习框架",
-                        "sentence": "TensorFlow是一个使用数据流图进行数值计算的开源软件库",
-                        "clickTime": 0
+                        "id": 96,
+                        "urlName": "知　网",
+                        "URL": "http://www.cnki.ne",
+                        "categoryId": 33,
+                        "discription": "知　网",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
                     }
-                ]
+                ],
+                "children": null
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "categoryName": "前端工具",
+        "sitesCount": 0,
+        "discription": "前端工具集",
+        "parentCategoryId": 0,
+        "sort": 0,
+        "children": [
+            {
+                "id": 16,
+                "categoryName": "UI",
+                "sitesCount": 0,
+                "discription": "UI",
+                "parentCategoryId": 7,
+                "sort": 0,
+                "weburls": [
+                    {
+                        "id": 32,
+                        "urlName": "颜色转换",
+                        "URL": "ttps://www.colorspire.com/rgb-color-wheel/",
+                        "categoryId": 16,
+                        "discription": "颜色转换\r\n颜色转换\r\n颜色转换",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 35,
+                        "urlName": "图标查询",
+                        "URL": "http://www.iconfont.cn",
+                        "categoryId": 16,
+                        "discription": "图标查询",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 36,
+                        "urlName": "图片压缩",
+                        "URL": "https://tinypng.com/",
+                        "categoryId": 16,
+                        "discription": "图片压缩",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 38,
+                        "urlName": "dp转px",
+                        "URL": "http://labs.rampinteractive.co.uk/android_dp_px_calculator/",
+                        "categoryId": 16,
+                        "discription": "dp转px",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 39,
+                        "urlName": "图标生成",
+                        "URL": "http://romannurik.github.io/AndroidAssetStudio/",
+                        "categoryId": 16,
+                        "discription": "图标生成",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 40,
+                        "urlName": "Shape生成",
+                        "URL": "http://shapes.softartstudio.com",
+                        "categoryId": 16,
+                        "discription": "Shape生成",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 41,
+                        "urlName": "Button生成",
+                        "URL": "http://angrytools.com/android/button/",
+                        "categoryId": 16,
+                        "discription": "Button生成",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 42,
+                        "urlName": "Base64",
+                        "URL": "http://tool.lu/base64image",
+                        "categoryId": 16,
+                        "discription": "Base64",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    }
+                ],
+                "children": null
             },
             {
-                "id": 5,
-                "totalNumber": 2,
-                "name": "前端",
-                "typeTitle": "Front-end",
-                "websites": [
+                "id": 18,
+                "categoryName": "JavaScript",
+                "sitesCount": 0,
+                "discription": "JavaScript",
+                "parentCategoryId": 7,
+                "sort": 0,
+                "weburls": [
                     {
-                        "id": 1,
-                        "icon": "",
-                        "name": "ES6",
-                        "url": "//202.123.106.102:25223/",
-                        "discription": "项目GitLab",
-                        "sentence": "项目GitLab",
-                        "clickTime": 0
+                        "id": 34,
+                        "urlName": "正则工具",
+                        "URL": "https://tool.lu/regex/http://www.iconfont.cn",
+                        "categoryId": 18,
+                        "discription": "正则工具",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
                     }
-                ]
+                ],
+                "children": null
             },
             {
-                "id": 6,
-                "totalNumber": 2,
-                "name": "Python",
-                "typeTitle": "人生苦短，我用Python",
-                "websites": [
+                "id": 19,
+                "categoryName": "调试",
+                "sitesCount": 0,
+                "discription": "调试",
+                "parentCategoryId": 7,
+                "sort": 0,
+                "weburls": [
                     {
-                        "id": 1,
-                        "icon": "",
-                        "name": "东软VPN",
-                        "url": "//vpn.neusoft.com/",
-                        "discription": "出差必备",
-                        "sentence": "出差必备",
-                        "clickTime": 0
+                        "id": 14,
+                        "urlName": "json格式化",
+                        "URL": "//bejson.com",
+                        "categoryId": 19,
+                        "discription": "json格式化",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 15,
+                        "urlName": "json压缩",
+                        "URL": "//www.sojson.com/yasuo.html",
+                        "categoryId": 19,
+                        "discription": "json压缩",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 16,
+                        "urlName": "接口管理工具",
+                        "URL": "https://www.eolinker.com",
+                        "categoryId": 19,
+                        "discription": "接口管理工具",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
                     }
-                ]
+                ],
+                "children": null
+            },
+            {
+                "id": 20,
+                "categoryName": "官方文档",
+                "sitesCount": 0,
+                "discription": "各种官方指导",
+                "parentCategoryId": 7,
+                "sort": 0,
+                "weburls": [
+                    {
+                        "id": 17,
+                        "urlName": "谷歌开发者",
+                        "URL": "https://developers.google.cn/",
+                        "categoryId": 20,
+                        "discription": "谷歌开发者",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    }
+                ],
+                "children": null
+            },
+            {
+                "id": 21,
+                "categoryName": "问答类",
+                "sitesCount": 0,
+                "discription": "问答类网站",
+                "parentCategoryId": 7,
+                "sort": 0,
+                "weburls": [
+                    {
+                        "id": 18,
+                        "urlName": "stackoverflow",
+                        "URL": "https://stackoverflow.com/",
+                        "categoryId": 21,
+                        "discription": "stackoverflow",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 20,
+                        "urlName": "segmentfault",
+                        "URL": "https://segmentfault.com/t/android",
+                        "categoryId": 21,
+                        "discription": "segmentfault",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 22,
+                        "urlName": "CSDN",
+                        "URL": "http://www.csdn.net/",
+                        "categoryId": 21,
+                        "discription": "CSDN",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    }
+                ],
+                "children": null
+            },
+            {
+                "id": 22,
+                "categoryName": "开发工具站点",
+                "sitesCount": 0,
+                "discription": "开发工具站点",
+                "parentCategoryId": 7,
+                "sort": 0,
+                "weburls": [
+                    {
+                        "id": 19,
+                        "urlName": "Github",
+                        "URL": "http://www.github.com/",
+                        "categoryId": 22,
+                        "discription": "Github",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 21,
+                        "urlName": "开源中国",
+                        "URL": "http://www.oschina.net/",
+                        "categoryId": 22,
+                        "discription": "开源中国",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    },
+                    {
+                        "id": 37,
+                        "urlName": "时间转换",
+                        "URL": "http://tool.chinaz.com/Tools/unixtime.aspx",
+                        "categoryId": 22,
+                        "discription": "时间转换",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    }
+                ],
+                "children": null
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "categoryName": "安全",
+        "sitesCount": 0,
+        "discription": "安全",
+        "parentCategoryId": 0,
+        "sort": 0,
+        "children": [
+            {
+                "id": 17,
+                "categoryName": "资料收集",
+                "sitesCount": 0,
+                "discription": "资料收集",
+                "parentCategoryId": 8,
+                "sort": 0,
+                "weburls": [
+                    {
+                        "id": 44,
+                        "urlName": "IP查询",
+                        "URL": "http://www.ip138.com",
+                        "categoryId": 17,
+                        "discription": "IP查询",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    }
+                ],
+                "children": null
+            },
+            {
+                "id": 28,
+                "categoryName": "安全工具集",
+                "sitesCount": null,
+                "discription": "安全工具集",
+                "parentCategoryId": 8,
+                "sort": 0,
+                "weburls": [
+                    {
+                        "id": 46,
+                        "urlName": "SSL工具",
+                        "URL": "http://www.ssleye.com",
+                        "categoryId": 28,
+                        "discription": "SSL工具",
+                        "heat": 0,
+                        "clickCount": 0,
+                        "coverimage": null,
+                        "webIcon": null,
+                        "ip": null
+                    }
+                ],
+                "children": null
             }
         ]
     }
