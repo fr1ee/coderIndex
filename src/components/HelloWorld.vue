@@ -2,15 +2,15 @@
 <div>
   <div class="wrap">
     <div v-for="classifications in webdata" :key="classifications.id">
-        <div class="container mainblock" v-for="(item, index) in classifications.classification" :key="item.id">
-            <div :id="item.name" class="large greenPulse button animationRepeat partTitle">{{item.typeTitle}}</div>
+        <div class="container mainblock" v-for="(item, index) in classifications.children" :key="item.id">
+            <div :id="item.categoryName" class="large  button animationRepeat partTitle" v-bind:class="{ 'greenPulse': (index%4==1),'bluePulse': (index%4==2),'pinkPulse': (index%4==3), 'magentaPulse': (index%4==0) }">{{item.categoryName}}</div>
             <div class="row">
-                <div class="col-md-4 button_link" v-for="web in item.websites" :key="web.id">
+                <div class="col-md-3 button_link" v-for="web in item.weburls" :key="web.id">
                     <div class="card noradius">
                         <div class="card-body">
-                            <h3><a :href="web.url"  target="_blank">{{web.name}}</a></h3>
+                            <h3><a :href="web.URL"  target="_blank">{{web.urlName}}</a></h3>
                             <!-- <img src="./images/code.png" alt="网站图标" class="float-left img-samllsize"> -->
-                            <p class="card-text">{{web.sentence}}</p>
+                            <p class="card-text websitesentence">{{web.discription}}</p>
                         </div>
                     </div>
                     <span class="line line_top"></span>
@@ -29,7 +29,7 @@
             <ul class="nav-ul">
                 <li  v-for="classifications in webdata" :key="classifications.id">
                     <a href="#" class="home">
-                        <span class="fontStrong">{{classifications.name}}</span>
+                        <span class="fontStrong">{{classifications.categoryName}}</span>
                     </a>
                 </li>
              </ul>
@@ -37,9 +37,9 @@
         <div class="nav-slide">
             <div class="nav-slide-o" v-for="classifications in webdata" :key="classifications.id">
                 <ul>
-                    <li v-on:click="gotoAnchor(items.name)" class="leftmenuli" v-for="items in classifications.classification" :key="items.id">
+                    <li v-on:click="gotoAnchor(items.categoryName)" class="leftmenuli" v-for="items in classifications.children" :key="items.id">
                         <span>
-                            {{items.name}}
+                            {{items.categoryName}}
                         </span>
                     </li>
                 </ul>
@@ -66,18 +66,18 @@
 </template>
 
 <script>
-import websiteData from "../../static/websites.json";
+import websiteDataJson from "../../static/websites.json";
 import "../assets/js/jquery.min.js";
 import "../assets/js/index.js";
 // console.log(websiteData);
-websiteData;
+var webdata;
 export default {
   name: "HelloWorld",
   data() {
     return {
       msg: "Welcome to Your Vue.js App",
       message: "Hello Vue!",
-      webdata: websiteData
+      webdata: websiteDataJson
     };
   },
   computed: {},
@@ -89,10 +89,11 @@ export default {
     }
   },
   // 页面加载之前，用created钩子函数-获取网页数据
-  created() {
-    this.$http.get("http://localhost:3000/api/niceindex/all").then(data => {
-      console.log(data)
-      this.websiteData = data;
+  beforeCreate() {
+    // this.$http.get("http://39.105.78.234:7001/getAllCategorys?wym").then(data => {
+    this.$http.get("http://localhost:7001/getAllCategorys/1").then(data => {
+      console.log("date:",data.body.category.children);
+      this.webdata = data.body.category.children;
     });
   }
 };

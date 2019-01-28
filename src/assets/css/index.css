@@ -2,8 +2,7 @@
 html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td, textarea {
     margin: 0;
     padding: 0;
-    font-size: 14px;
-    line-height: 24px;
+    
     color: #000;
     font-family: 'microsoft yahei', verdana, Tahoma;
 }
@@ -19,9 +18,6 @@ ol, ul {
     zoom: 1;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-size: 100%;
-}
 
 img {
     border: none;
@@ -35,6 +31,7 @@ a, a:link, a:visited {
 
 a:hover {
     cursor: pointer;
+    text-decoration:none;
 }
 
 .table {
@@ -103,8 +100,8 @@ body {
     margin: 0 auto;
     background-color: #fbf8a5;
     overflow-x: hidden;
-    /* background-image: url("../images/EarthMap.jpg"); */
-    background-image: url("../images/monten.jpg");
+    background-image: url("../images/EarthMap.jpg");
+    /* background-image: url("../images/backgroundimg.jpg"); */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,10 +112,12 @@ body {
     height: 100vh;
 
 }
-
-.mainblock {
-
+@media(min-width: 1200px){
+    .mainblock {
+        max-width: 61.8%;
+    }
 }
+
 
 /*一级导航*/
 .nav-main {
@@ -180,6 +179,7 @@ body {
 
 .nav-ul li a:hover {
     background: #357dd7;
+    text-decoration:none;
 }
 
 .nav-ul li a:hover:before {
@@ -280,6 +280,7 @@ body {
 
 .nav-slide-o li a:hover {
     background: #357dd7;
+    text-decoration:none;
 }
 
 .nav-slide-o li a:hover:before {
@@ -456,4 +457,7 @@ p#back-to-top a span{
 .fontStrong{
     font-size: 20px;
     font-weight: 900;
+}
+.websitesentence{
+    margin-top: 5px;
 }
