@@ -1,0 +1,23 @@
+[
+{
+    "leader": "韩真真",
+    "dayEditor" : "李四",
+    "nightEditor" : "张小曼",
+    "dayIssuer" : "韩真真",
+    "nightIssuer" : "张小曼",
+    "schedule": [
+      {
+        "scheduleTime": "9:00",
+        "scheduleEvent": "吉尔吉斯斯坦14名军警被捕 或与中国使馆空袭有关"
+      },
+      {
+        "scheduleTime": "8:00",
+        "scheduleEvent": "故宫将新建博物馆 选址临近圆明园"
+      },
+      {
+        "scheduleTime": "7:00",
+        "scheduleEvent": "中国国民党主席洪秀柱将率团来访大陆"
+      }
+    ]
+}
+]

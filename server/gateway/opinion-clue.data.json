@@ -1,0 +1,67 @@
+[
+{
+    "longitude": "东经116.3",
+    "latitude" : "北纬39.9",
+    "incidentHeadLine" : "北京热门新闻",
+    "incidentId" : "#",
+    "hotNews" : [
+      {
+        "hotNewsHeadLine" : "新华社总编辑何平等共同启动新华网新版上线",
+        "hotNewsTime" : "2016.09.20",
+        "hotNewsId" : "#"
+      },
+      {
+        "hotNewsHeadLine" : "发改委：当前经济缓中趋稳 未来稳定发展仍有支撑",
+        "hotNewsTime" : "2016.09.20",
+        "hotNewsId" : "#"
+      },
+      {
+        "hotNewsHeadLine" : "海军第二十三批护航编队凯旋",
+        "hotNewsTime" : "2016.09.20",
+        "hotNewsId" : "#"
+      },
+      {
+        "hotNewsHeadLine" : "国产新型轰炸机将亮相 国防部答问",
+        "hotNewsTime" : "2016.09.20",
+        "hotNewsId" : "#"
+      },
+      {
+        "hotNewsHeadLine" : "“玉兔号”曾在敦煌沙漠上行走测试",
+        "hotNewsTime" : "2016.09.20",
+        "hotNewsId" : "#"
+      }
+    ]
+}
+,{
+    "longitude": "东经117.1",
+    "latitude" : "北纬39.1",
+    "incidentHeadLine" : "天津热门新闻",
+    "hotNews" : [
+      {
+        "hotNewsHeadLine" : "新华社总编辑何平等共同启动新华网新版上线",
+        "hotNewsTime" : "2016.09.20",
+        "hotNewsId" : "#"
+      },
+      {
+        "hotNewsHeadLine" : "发改委：当前经济缓中趋稳 未来稳定发展仍有支撑",
+        "hotNewsTime" : "2016.09.20",
+        "hotNewsId" : "#"
+      },
+      {
+        "hotNewsHeadLine" : "海军第二十三批护航编队凯旋",
+        "hotNewsTime" : "2016.09.20",
+        "hotNewsId" : "#"
+      },
+      {
+        "hotNewsHeadLine" : "国产新型轰炸机将亮相 国防部答问",
+        "hotNewsTime" : "2016.09.20",
+        "hotNewsId" : "#"
+      },
+      {
+        "hotNewsHeadLine" : "“玉兔号”曾在敦煌沙漠上行走测试",
+        "hotNewsTime" : "2016.09.20",
+        "hotNewsId" : "#"
+      }
+    ]
+}
+]

@@ -1,0 +1,858 @@
+{
+	"status":1,
+	"message":"操作成功",
+    "result": [
+        {
+            "id":172,
+            "name":"中国特稿社",
+            "type":2,
+            "parentId":"0",
+            "status":"",
+            "catalogItems": [
+        		{
+                    "id": "172",
+                    "name": "(全部)",
+                    "status":"",
+                    "contentType": "All",
+                    "parentId": 0,
+                    "isLeaf": 1,
+                    "catalogItems": []
+                },
+                {
+                    "id":15107,
+                    "name":"根栏目",
+                    "status":"forbid",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogItems":[]
+                },
+                {
+                    "id":15667,
+                    "name":"要闻",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogItems":[]
+                },
+                {
+                    "id":15668,
+                    "name":"影像",
+                    "status":"",
+                    "contentType":"Image",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogItems":[]
+                },
+                {
+                    "id":15669,
+                    "name":"口述",
+                    "status":"",
+                    "contentType":"Audio",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogItems":[]
+                },
+                {
+                    "id":15670,
+                    "name":"声色",
+                    "status":"",
+                    "contentType":"Video",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogItems":[]
+                },
+                {
+                    "id":15671,
+                    "name":"视频集",
+                    "status":"",
+                    "contentType":"VideoGroup",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogItems":[]
+                },
+                {
+                    "id":15672,
+                    "name":"教育专题",
+                    "status":"",
+                    "contentType":"Special",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogItems":[]
+                },
+                {
+                    "id":15710,
+                    "name":"生活专题",
+                    "status":"",
+                    "contentType":"Special",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogItems":[]
+                },
+                {
+                    "id":15711,
+                    "name":"体育专题",
+                    "status":"",
+                    "contentType":"Special",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogItems":[]
+                },
+                {
+                    "id":15712,
+                    "name":"科学专题",
+                    "status":"",
+                    "contentType":"Special",
+                    "parentId":0,
+                    "isLeaf":0,
+                    "catalogItems":[]
+                }
+            ]
+        },
+        {
+            "id":101,
+            "name":"多媒体实验线路",
+            "type":1,
+            "parentId":"0",
+            "status":"",
+            "isAble":"0",
+            "channelType":"General",
+            "channelSign":"xhdsy",
+            "channelLanguage":"zh-CN",
+            "mediaType":"Text,Photo,Video,Multimedia",
+            "format":"CNML",
+            "modifyUser":"admin",
+            "endTime":"2017-04-01 19:52:14",
+            "catalogItems": [
+            	{
+                    "id": "xhdsy",
+                    "name": "(全部)",
+                    "contentType": "All",
+                    "parentId": 0,
+                    "isLeaf": 1,
+                    "catalogSign":"xhdsy",
+                    "catalogLanguage":"",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems": []
+                }
+            ]
+        },
+        {
+            "id":173,
+            "name":"通稿新闻线路",
+            "type":1,
+            "parentId":"0",
+            "status":"",
+            "isAble":"0",
+            "channelType":"",
+            "channelSign":"tgxwxl",
+            "channelLanguage":null,
+            "mediaType":null,
+            "format":null,
+            "modifyUser":"admin",
+            "endTime":"",
+            "catalogItems": [
+            	{
+                    "id": "tgxwxl",
+                    "name": "(全部)",
+                    "contentType": "All",
+                    "parentId": 0,
+                    "isLeaf": 1,
+                    "catalogSign":"tgxwxl",
+                    "catalogLanguage":"",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems": []
+                },
+                {
+                    "id":15673,
+                    "name":"文化",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogSign":"990",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"admin",
+                    "catalogItems":[]
+                },
+                {
+                    "id":15674,
+                    "name":"社会",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogSign":"991",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems":[]
+                },
+                {
+                    "id":15675,
+                    "name":"财经",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogSign":"992",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems":[]
+                }
+            ]
+        },
+        {
+        	"id":122,
+            "name":"新媒体专线",
+            "type":1,
+            "parentId":"0",
+            "status":"",
+            "isAble":"0",
+            "channelType":"General",
+            "channelSign":"ifwzx",
+            "channelLanguage":"zh-CN",
+            "mediaType":"Text,Photo,Video,Multimedia",
+            "format":"CNML",
+            "modifyUser":"admin",
+            "endTime":"2017-04-01 19:52:14",
+            "catalogItems":[
+                {
+                    "id": "ifwzx",
+                    "name": "(全部)",
+                    "contentType": "All",
+                    "parentId": 0,
+                    "isLeaf": 1,
+                    "catalogSign":"ifwzx",
+                    "catalogLanguage":"",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems": []
+                },
+                {
+                    "id":15115,
+                    "name":"学习时间",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogSign":"701",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"admin",
+                    "catalogItems":[]
+                },
+                {
+                    "id":15116,
+                    "name":"反腐纪事",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogSign":"702",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems":[]
+                },
+                {
+                    "id":15117,
+                    "name":"中国网事",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogSign":"703",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems":[]
+                },
+                {
+                    "id":15118,
+                    "name":"新华视点",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogSign":"704",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems":[]
+                },
+                {
+                    "id":15119,
+                    "name":"新华视界",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogSign":"705",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems":[]
+                },
+                {
+                    "id":15120,
+                    "name":"政策简读",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogSign":"707",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems":[]
+                },
+                {
+                    "id":15121,
+                    "name":"新华财经",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogSign":"708",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems":[]
+                },
+                {
+                    "id":15122,
+                    "name":"新华视频",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogSign":"710",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems":[]
+                },
+                {
+                    "id":15123,
+                    "name":"新华锐评",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogSign":"711",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems":[]
+                },
+                {
+                    "id":15124,
+                    "name":"新华军事",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogSign":"713",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems":[]
+                },
+                {
+                    "id":15125,
+                    "name":"一图读懂",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogSign":"714",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems":[]
+                },
+                {
+                    "id":15126,
+                    "name":"中国聚焦",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogSign":"715",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems":[]
+                },
+                {
+                    "id":15127,
+                    "name":"新华国际",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogSign":"718",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems":[]
+                },
+                {
+                    "id":15128,
+                    "name":"弹窗快讯",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogSign":"720",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems":[]
+                },
+                {
+                    "id":15129,
+                    "name":"新华全媒头条",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogSign":"721",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems":[]
+                },
+                {
+                    "id":15130,
+                    "name":"现场新闻",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogSign":"722",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems":[]
+                },
+                {
+                    "id":15131,
+                    "name":"热点鲜报",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogSign":"723",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems":[]
+                },
+                {
+                    "id":15132,
+                    "name":"动新闻",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogSign":"724",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems":[]
+                },
+                {
+                    "id":15133,
+                    "name":"VR视角",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogSign":"725",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems":[]
+                },
+                {
+                    "id":15134,
+                    "name":"全球头条",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogSign":"726",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems":[]
+                },
+                {
+                    "id":15135,
+                    "name":"新华体育",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogSign":"727",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems":[]
+                },
+                {
+                    "id":15136,
+                    "name":"新华科技",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogSign":"728",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems":[]
+                },
+                {
+                    "id":15137,
+                    "name":"领导活动",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "catalogSign":"732",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems":[]
+                }
+            ]
+        },
+        {
+        	"id":174,
+            "name":"新闻图片通稿专线",
+            "type":1,
+            "parentId":"0",
+            "status":"",
+            "isAble":"0",
+            "channelType":"",
+            "channelSign":"xwzx",
+            "channelLanguage":null,
+            "mediaType":null,
+            "format":null,
+            "modifyUser":"admin",
+            "endTime":"",
+            "catalogItems":[
+	            	{
+	                    "id": "xwzx",
+	                    "name": "(全部)",
+	                    "contentType": "All",
+	                    "parentId": 0,
+	                    "isLeaf": 1,
+	                    "catalogSign":"xwzx",
+	                    "catalogLanguage":"",
+	                    "isAble":"0",
+	                    "modifyUser":"",
+	                    "catalogItems": []
+	                },
+                	{
+                    "id":15676,
+                    "name":"新华社实时图片",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":0,
+                    "catalogSign":"994",
+                    "catalogLanguage":"1",
+                    "isAble":"0",
+                    "modifyUser":"",
+                    "catalogItems":[
+                        {
+                            "id":15677,
+                            "name":"彩色通稿",
+                            "status":"",
+                            "contentType":"Article",
+                            "parentId":15676,
+                            "isLeaf":1,
+                            "catalogSign":"995",
+                            "catalogLanguage":"1",
+                            "isAble":"0",
+                            "modifyUser":"",
+                            "catalogItems":[]
+                        },
+                        {
+                            "id":15678,
+                            "name":"图表专线",
+                            "status":"",
+                            "contentType":"Article",
+                            "parentId":15676,
+                            "isLeaf":1,
+                            "catalogSign":"996",
+                            "catalogLanguage":"1",
+                            "isAble":"0",
+                            "modifyUser":"",
+                            "catalogItems":[]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+        	"id":175,
+            "name":"新浪微博-新华视点",
+            "type":4,
+            "parentId":"0",
+            "status":"",
+            "catalogItems": [
+                {
+                    "id": "175",
+                    "name": "(全部)",
+                    "status":"",
+                    "contentType": "All",
+                    "parentId": 0,
+                    "isLeaf": 1,
+                    "catalogItems": []
+                },
+                {
+                    "id": "17501",
+                    "name": "今天",
+                    "status":"",
+                    "contentType": "",
+                    "parentId": 0,
+                    "isLeaf": 1,
+                    "catalogItems": []
+                },
+                {
+                    "id": "17502",
+                    "name": "昨天",
+                    "status":"",
+                    "contentType": "",
+                    "parentId": 0,
+                    "isLeaf": 1,
+                    "catalogItems": []
+                },
+                {
+                    "id": "17503",
+                    "name": "过去七天",
+                    "status":"",
+                    "contentType": "",
+                    "parentId": 0,
+                    "isLeaf": 1,
+                    "catalogItems": []
+                },
+                {
+                   "id": "17504",
+                    "name": "更早",
+                    "status":"",
+                    "contentType": "",
+                    "parentId": 0,
+                    "isLeaf": 1,
+                    "catalogItems": []
+                }
+            ]
+        },
+        {
+        	"id":176,
+            "name":"微信公众号-新华社",
+            "type":3,
+            "parentId":"0",
+            "status":"",
+            "catalogItems": [
+                {
+                    "id": "176",
+                    "name": "(全部)",
+                    "status":"",
+                    "contentType": "All",
+                    "parentId": 0,
+                    "isLeaf": 1,
+                    "catalogItems": []
+                },
+                {
+                    "id": "17601",
+                    "name": "今天",
+                    "status":"",
+                    "contentType": "",
+                    "parentId": 0,
+                    "isLeaf": 1,
+                    "catalogItems": []
+                },
+                {
+                    "id": "17602",
+                    "name": "昨天",
+                    "status":"",
+                    "contentType": "",
+                    "parentId": 0,
+                    "isLeaf": 1,
+                    "catalogItems": []
+                },
+                {
+                    "id": "17603",
+                    "name": "过去七天",
+                    "status":"",
+                    "contentType": "",
+                    "parentId": 0,
+                    "isLeaf": 1,
+                    "catalogItems": []
+                },
+                {
+                   "id": "17604",
+                    "name": "更早",
+                    "status":"",
+                    "contentType": "",
+                    "parentId": 0,
+                    "isLeaf": 1,
+                    "catalogItems": []
+                }
+            ]
+        },
+        {
+            "id":182,
+            "name":"测试Twitter",
+            "type":6,
+            " ":"0",
+            "status":"",
+            "catalogItems": [
+        		{
+                    "id": "182",
+                    "name": "(全部)",
+                    "status":"",
+                    "contentType": "All",
+                    "parentId": 0,
+                    "isLeaf": 1,
+                    "catalogItems": []
+                }
+            ]
+        },
+        {
+            "id":183,
+            "name":"测试FaceBook",
+            "type":7,
+            "parentId":"0",
+            "status":"",
+            "catalogItems": [
+        		{
+                    "id": "183",
+                    "name": "(全部)",
+                    "status":"",
+                    "contentType": "All",
+                    "parentId": 0,
+                    "isLeaf": 1,
+                    "catalogItems": []
+                }
+            ]
+        },
+        {
+            "id":184,
+            "name":"测试YouTube",
+            "type":8,
+            "parentId":"0",
+            "status":"",
+            "catalogItems": [
+        		{
+                    "id": "184",
+                    "name": "(全部)",
+                    "status":"",
+                    "contentType": "All",
+                    "parentId": 0,
+                    "isLeaf": 1,
+                    "catalogItems": []
+                }
+            ]
+        },
+        {
+            "id":124,
+            "name":"新华社客户端",
+            "type":5,
+            "parentId":"0",
+            "status":"",
+            "catalogItems": [
+        		{
+                    "id": "124",
+                    "name": "(全部)",
+                    "status":"",
+                    "contentType": "All",
+                    "parentId": 0,
+                    "isLeaf": 1,
+                    "titleLength":"",
+                    "catalogSign":null,
+                    "catalogLanguage":null,
+                    "isAble":null,
+                    "modifyUser":null,
+                    "catalogItems": []
+                },
+                {
+                    "id":15139,
+                    "name":"要闻",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "titleLength":"",
+                    "catalogSign":null,
+                    "catalogLanguage":null,
+                    "isAble":null,
+                    "modifyUser":null,
+                    "catalogItems":[
+
+                    ]
+                },
+                {
+                    "id":15140,
+                    "name":"国际",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "titleLength":"",
+                    "catalogSign":null,
+                    "catalogLanguage":null,
+                    "isAble":null,
+                    "modifyUser":null,
+                    "catalogItems":[
+
+                    ]
+                },
+                {
+                    "id":15141,
+                    "name":"财经",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "titleLength":"",
+                    "catalogSign":null,
+                    "catalogLanguage":null,
+                    "isAble":null,
+                    "modifyUser":null,
+                    "catalogItems":[
+
+                    ]
+                },
+                {
+                    "id":15142,
+                    "name":"体育",
+                    "status":"",
+                    "contentType":"Article",
+                    "parentId":0,
+                    "isLeaf":1,
+                    "titleLength":"",
+                    "catalogSign":null,
+                    "catalogLanguage":null,
+                    "isAble":null,
+                    "modifyUser":null,
+                    "catalogItems":[
+
+                    ]
+                }
+            ]
+        }
+    ]
+}
+

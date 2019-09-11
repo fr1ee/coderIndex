@@ -1,0 +1,104 @@
+[
+    {
+        "id": "c0250001", 
+        "name": "封面杂志", 
+        "parentID": "0", 
+        "contentType": "1", 
+        "isLeaf": "0",
+        "catalogItems": [
+            {
+                "id": "c0270184", 
+                "name": "世纪", 
+                "parentID": "c0250001", 
+                "contentType": "1", 
+                "isLeaf": "1"
+            },
+            {
+                "id": "c0270226", 
+                "name": "中国新闻网", 
+                "parentID": "c0250001", 
+                "contentType": "1", 
+                "isLeaf": "1"
+            },
+            {
+                "id": "c0270683", 
+                "name": "环球网", 
+                "parentID": "c0250001", 
+                "contentType": "1", 
+                "isLeaf": "1"
+            },
+            {
+                "id": "c0270059", 
+                "name": "观察者网", 
+                "parentID": "c0250001", 
+                "contentType": "1", 
+                "isLeaf": "0",
+                "catalogItems": [
+                	{
+		                "id": "c0270984", 
+		                "name": "突发事件", 
+		                "parentID": "c0270059", 
+		                "contentType": "1", 
+		                "isLeaf": "1"
+		            }
+                ]
+            },
+            {
+                "id": "c0270069", 
+                "name": "社会", 
+                "parentID": "c0250001", 
+                "contentType": "1", 
+                "isLeaf": "1"
+            },
+            {
+                "id": "c0270082", 
+                "name": "人民日报", 
+                "parentID": "c0250001", 
+                "contentType": "1", 
+                "isLeaf": "1"
+            },
+            {
+                "id": "c0270121", 
+                "name": "科技", 
+                "parentID": "c0250001", 
+                "contentType": "1", 
+                "isLeaf": "1"
+            },
+            {
+                "id": "c0270140", 
+                "name": "教育", 
+                "parentID": "c0250001", 
+                "contentType": "1", 
+                "isLeaf": "1"
+            },
+            {
+                "id": "c0270830", 
+                "name": "文化娱乐", 
+                "parentID": "c0250001", 
+                "contentType": "1", 
+                "isLeaf": "1"
+            },
+            {
+                "id": "c0270854", 
+                "name": "医药卫生", 
+                "parentID": "c0250001", 
+                "contentType": "1", 
+                "isLeaf": "1"
+            },
+            {
+                "id": "c0270864", 
+                "name": "体育", 
+                "parentID": "c0250001", 
+                "contentType": "1", 
+                "isLeaf": "1"
+            },
+            {
+                "id": "c0270863", 
+                "name": "其它", 
+                "parentID": "c0250001", 
+                "contentType": "1", 
+                "isLeaf": "1"
+            }
+        ]
+    }
+]

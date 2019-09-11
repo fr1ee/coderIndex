@@ -1,0 +1,91 @@
+{
+       "storyTitle":"朱婷当选奥运会女排MVP，郎平成绩前无古人",
+       "currentUse":[
+          {"id":1, "name": "北京分社/张新华"},
+          {"id":2, "name": "辽宁分社/秋天"},
+          {"id":3, "name": "总社/北京分社/赵新华"}
+       ],
+       "treeList":[
+        {
+            "label": "国内分社",
+            "children": [
+                {"label": "北京分社", "value":"1", "children":[]},
+                {"label": "天津分社", "value":"2", "children":[]},
+                {"label": "河北分社", "value":"3", "children":[]},
+                {"label": "山东分社", "value":"4", "children":[]},
+                {"label": "辽宁分社", "value":"5", "children":[]}
+                ]
+        }
+      ],
+      "editorTreeList":[
+        {
+            "label": "新华社",
+            "children": [
+                {"label": "总社", "value":"1", "children":[
+                   {"label": "总编室", "value":"11", "children":[]},
+                   {"label": "国内新闻编辑部", "value":"12", "children":[]},
+                   {"label": "体育新闻编辑部", "value":"13", "children":[
+                      {"label": "资源库", "value":"131", "children":[]},
+                      {"label": "里约奥运报导组", "value":"132", "children":[]}
+                   ]}
+                ]},
+                {"label": "国内分社", "value":"2", "children":[]}
+                ]
+        }
+      ],
+      "editorGroupTreeList":[
+        {
+            "label": "新华社",
+            "children": [
+                {"label": "总社", "value":"1", "children":[
+                   {"label": "总编室", "value":"11", "children":[]},
+                   {"label": "国内新闻编辑部", "value":"12", "children":[]},
+                   {"label": "体育新闻编辑部", "value":"13", "children":[
+                      {"label": "资源库", "value":"131", "children":[]},
+                      {"label": "里约奥运报导组", "value":"132", "children":[]}
+                   ]}
+                ]}
+                ]
+        }
+      ],
+      "curDepList":[
+        {"id":1, "name": "总社/体育部/奥运报导组"},
+        {"id":2, "name": "总社/北京分社/签发人组"},
+        {"id":3, "name": "总社/新闻部/两会报导组"}
+      ],
+      "treeSelectedList":[
+          {"id":1, "name": "王五"},
+          {"id":2, "name": "李四"},
+          {"id":3, "name": "张山"},
+          {"id":4, "name": "张小曼"},
+          {"id":5, "name": "苏小涵"},
+          {"id":6, "name": "韩乐乐"},
+          {"id":7, "name": "张丹峰"},
+          {"id":8, "name": "林鹏"},
+          {"id":9, "name": "张三"}
+      ],
+      "roleList":[
+        {"roleId":"3002002", "roleName":"北京分社分社发稿人"},
+        {"roleId":"3002001", "roleName":"北京分社记者"},
+        {"roleId":"4001001", "roleName":"政文编辑组编辑"},
+        {"roleId":"4001002", "roleName":"政文编辑组校对"},
+        {"roleId":"4001003", "roleName":"政文编辑组终审签发人"}
+      ],
+      "organizationList":[
+        {"orgId":"3002","orgName":"国内分社-北京分社"},
+        {"orgId":"3003","orgName":"国内分社-辽宁分社"},
+        {"orgId":"3004","orgName":"国内分社-河北分社"},
+        {"orgId":"4001","orgName":"总社-国内部-政文编辑组"},
+        {"orgId":"4002","orgName":"总社-国内部-服务新闻专线"},
+        {"orgId":"4003","orgName":"总社-国内部-经济编辑组"}
+      ],
+      "orgStoryList":[
+        {"orgId":"3002","orgName":"国内分社-北京分社","singStoryList":["稿件分类","语种","供稿类别","关键字","主题词"]},
+        {"orgId":"3003","orgName":"国内分社-辽宁分社","singStoryList":["稿件分类","语种"]},
+        {"orgId":"3004","orgName":"国内分社-河北分社","singStoryList":["稿件分类","语种","主题词"]},
+        {"orgId":"4001","orgName":"总社-国内部-政文编辑组","singStoryList":["稿件分类","语种","供稿类别","稿件优先级","主题词"]},
+        {"orgId":"4002","orgName":"总社-国内部-服务新闻专线","singStoryList":["稿件优先级","主题词"]},
+        {"orgId":"4003","orgName":"总社-国内部-经济编辑组","singStoryList":["语种","稿件优先级","关键字"]}
+      ],
+      "topicSelectList":[ "中国代表团预计将有400人参加里约奥运会"]
+    }

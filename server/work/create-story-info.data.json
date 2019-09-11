@@ -1,0 +1,118 @@
+[
+	 {"id":"normal",
+		"name":"建稿",
+		"children": [
+			{
+				"name":"类型",
+				"value":"types",
+				"children": [
+					 {"code":"1","name":"文字","editor":"Text"},
+					 {"code":"2","name":"图片","editor":"Photo"},
+					 {"code":"6","name":"数据图","editor":"Graph"},
+					 {"code":"4","name":"音频","editor":"Audio"},
+					 {"code":"5","name":"视频","editor":"Video"},
+					 {"code":"11","name":"多媒体","editor":"MultiMedia"},
+					 {"code":"16","name":"图表稿","editor":"Graph"},
+					 {"code":"12","name":"图集","editor":"Atlas"},
+					 {"code":"13","name":"链接稿","editor":"Link"}
+				]
+			},
+			{
+				"name":"语种",
+				"value":"languages",
+				"children": [
+					 {"code":"zh-CN","name":"中文"},
+					  {"code":"en","name":"English"},
+					  {"code":"es","name":"西班牙文"},
+					  {"code":"fr","name":"法文"},
+					  {"code":"ru","name":"俄文"},
+					  {"code":"ar","name":"阿文"},
+					  {"code":"pt","name":"葡文"}
+				]
+			},
+			{
+				"name":"选择",
+				"value":"chooses",
+				"children": [
+					{"code":"1","name":"多建一"},
+					{"code":"2","name":"多建多"}
+				]
+			}
+		]
+	},
+	{"id":"product",
+		"name":"建产品稿",
+		"children": [
+			{
+				"name":"类型",
+				"value":"types",
+				"children": [
+					 {"code":"21","name":"数据新闻","editor":"Svg"},
+					 {"code":"22","name":"交互新闻","editor":"Text"},
+					 {"code":"23","name":"现场新闻","editor":"Text"},
+					 {"code":"24","name":"时空新闻","editor":"Text"},
+					 {"code":"25","name":"动图","editor":"Gif"},
+					 {"code":"26","name":"目录稿","editor":"Catalog"}
+				]
+			},
+			{
+				"name":"语种",
+				"value":"languages",
+				"children": [
+					 {"code":"zh-CN","name":"中文"},
+					  {"code":"en","name":"English"},
+					  {"code":"es","name":"西班牙文"},
+					  {"code":"fr","name":"法文"},
+					  {"code":"ru","name":"俄文"},
+					  {"code":"ar","name":"阿文"},
+					  {"code":"pt","name":"葡文"}
+				]
+			},
+			{
+				"name":"选择",
+				"value":"chooses",
+				"children": [
+					{"code":"1","name":"多建一"},
+					{"code":"2","name":"多建多"}
+				]
+			}
+		]
+	},
+	{"id":"channel",
+		"name":"建渠道稿",
+		"children": [
+			{
+				"name":"类型",
+				"value":"types",
+				"children": [
+					 {"code":"33","name":"微信组稿","editor":"Weixin"},
+					 {"code":"34","name":"微博","editor":"Weibo"},
+					 {"code":"36","name":"Twitter","editor":"Twitter"},
+					 {"code":"37","name":"FaceBook","editor":"Facebook"},
+					 {"code":"38","name":"YouTube","editor":"Text"}
+				]
+			},
+			{
+				"name":"语种",
+				"value":"languages",
+				"children": [
+					 {"code":"zh-CN","name":"中文"},
+					  {"code":"en","name":"English"},
+					  {"code":"es","name":"西班牙文"},
+					  {"code":"fr","name":"法文"},
+					  {"code":"ru","name":"俄文"},
+					  {"code":"ar","name":"阿文"},
+					  {"code":"pt","name":"葡文"}
+				]
+			},
+			{
+				"name":"选择",
+				"value":"chooses",
+				"children": [
+					{"code":"1","name":"多建一"},
+					{"code":"2","name":"多建多"}
+				]
+			}
+		]
+	} 
+]	

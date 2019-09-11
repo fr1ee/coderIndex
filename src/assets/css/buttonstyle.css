@@ -1,0 +1,194 @@
+.partTitle {
+  margin: 10px 200px;
+  /* align-content: center; */
+  text-align: center;
+  /* border-radius: 20px; */
+  height: 40px;
+  line-height: 40px;
+  font-size: x-large;
+  color: white;
+  width: 61.8%;
+}
+
+/*  动画闪烁颜色  */
+
+@-webkit-keyframes greenPulse {
+  from {
+    background-color: #A2EF00;
+    -webkit-box-shadow: 0 0 9px #CBF76F;
+  }
+
+  50% {
+    background-color: #699B00;
+    -webkit-box-shadow: 0 0 18px #CBF76F;
+  }
+
+  to {
+    background-color: #A2EF00;
+    -webkit-box-shadow: 0 0 9px #CBF76F;
+  }
+}
+
+@-webkit-keyframes bluePulse {
+  from {
+    background-color: #37B6CE;
+    -webkit-box-shadow: 0 0 9px #5FBDCE;
+  }
+
+  50% {
+    background-color: #206876;
+    -webkit-box-shadow: 0 0 18px #5FBDCE;
+  }
+
+  to {
+    background-color: #37B6CE;
+    -webkit-box-shadow: 0 0 9px #5FBDCE;
+  }
+}
+
+
+@-webkit-keyframes magentaPulse {
+  from {
+    background-color: #FF9D40;
+    -webkit-box-shadow: 0 0 9px #FFB773;
+  }
+
+  50% {
+    background-color: #FF7C00;
+    -webkit-box-shadow: 0 0 18px #FFB773;
+  }
+
+  to {
+    background-color: #FF9D40;
+    -webkit-box-shadow: 0 0 9px #FFB773;
+  }
+}
+
+@-webkit-keyframes pinkPulse {
+  from {
+    background-color: #E5399E;
+    -webkit-box-shadow: 0 0 9px #E567B1;
+  }
+
+  50% {
+    background-color: #982669;
+    -webkit-box-shadow: 0 0 18px #E567B1;
+  }
+
+  to {
+    background-color: #E5399E;
+    -webkit-box-shadow: 0 0 9px #E567B1;
+  }
+}
+
+@keyframes greenPulse {
+    from {
+      background-color: #A2EF00;
+      -webkit-box-shadow: 0 0 9px #CBF76F;
+    }
+  
+    50% {
+      background-color: #699B00;
+      -webkit-box-shadow: 0 0 18px #CBF76F;
+    }
+  
+    to {
+      background-color: #A2EF00;
+      -webkit-box-shadow: 0 0 9px #CBF76F;
+    }
+  }
+  
+  @keyframes bluePulse {
+    from {
+      background-color: #37B6CE;
+      -webkit-box-shadow: 0 0 9px #5FBDCE;
+    }
+  
+    50% {
+      background-color: #206876;
+      -webkit-box-shadow: 0 0 18px #5FBDCE;
+    }
+  
+    to {
+      background-color: #37B6CE;
+      -webkit-box-shadow: 0 0 9px #5FBDCE;
+    }
+  }
+  
+  
+  @keyframes magentaPulse {
+    from {
+      background-color: #FF9D40;
+      -webkit-box-shadow: 0 0 9px #FFB773;
+    }
+  
+    50% {
+      background-color: #FF7C00;
+      -webkit-box-shadow: 0 0 18px #FFB773;
+    }
+  
+    to {
+      background-color: #FF9D40;
+      -webkit-box-shadow: 0 0 9px #FFB773;
+    }
+  }
+  
+  @keyframes pinkPulse {
+    from {
+      background-color: #E5399E;
+      -webkit-box-shadow: 0 0 9px #E567B1;
+    }
+  
+    50% {
+      background-color: #982669;
+      -webkit-box-shadow: 0 0 18px #E567B1;
+    }
+  
+    to {
+      background-color: #E5399E;
+      -webkit-box-shadow: 0 0 9px #E567B1;
+    }
+  }
+/*  重复动画  */
+.animationRepeat {
+  -webkit-animation-iteration-count: infinite;
+}
+
+/*  动画名称、动画完成时间  */
+.greenPulse.button {
+  -webkit-animation-name: greenPulse;
+  -webkit-animation-duration: 1s;
+  -webkit-animation: greenPulse 4s linear infinite;
+  -moz-animation: greenPulse 4s linear infinite;
+  -ms-animation: greenPulse 4s linear infinite;
+  -o-animation: greenPulse 4s linear infinite;
+  animation: greenPulse 4s linear infinite;
+}
+
+.bluePulse.button {
+  -webkit-animation-name: bluePulse;
+  -webkit-animation-duration: 3s;
+  -webkit-animation: bluePulse 4s linear infinite;
+  -moz-animation: bluePulse 4s linear infinite;
+  -ms-animation: bluePulse 4s linear infinite;
+  -o-animation: bluePulse 4s linear infinite;
+  animation: bluePulse 4s linear infinite;
+}
+
+.magentaPulse.button {
+  -webkit-animation-name: magentaPulse;
+  -webkit-animation-duration: 3s;
+  -webkit-animation: magentaPulse 4s linear infinite;
+  -moz-animation: magentaPulse 4s linear infinite;
+  -ms-animation: magentaPulse 4s linear infinite;
+  -o-animation: magentaPulse 4s linear infinite;
+  animation: magentaPulse 4s linear infinite;
+}
+
+.pinkPulse.button {
+  -webkit-animation: pinkPulse 4s linear infinite;
+  -moz-animation: pinkPulse 4s linear infinite;
+  -ms-animation: pinkPulse 4s linear infinite;
+  -o-animation: pinkPulse 4s linear infinite;
+  animation: pinkPulse 4s linear infinite;
+}

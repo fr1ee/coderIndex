@@ -1,0 +1,28 @@
+{
+    "content":{
+        "category":"wechat",
+        "docId":"101002017041800000255",
+        "headLine":"更新测试",
+        "issueFlag":0,
+        "leafItem":"",
+        "product":"微信公众号",
+        "productCId":"",
+        "productId":"15678",
+        "subDoc":[
+            {
+                    "headLine":"新多媒体（拷贝）",
+                    "id":"101002017041200000924"
+                },
+                {
+                    "headLine":"拷贝建搞 video",
+                    "id":"101002017041200000897"
+                },
+                {
+                    "headLine":"图集签发",
+                    "id":"101002017041100000772"
+                }
+        ]
+    },
+    "errCode":"0",
+    "errMsg":""
+}

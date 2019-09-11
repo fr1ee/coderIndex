@@ -1,0 +1,41 @@
+{
+    "errCode": 0,
+    "message": "",
+    "personInfoEntity": {
+        "personId": "dingjing",
+        "personName": "丁静",
+        "sex": "1",
+        "age": 30,
+        "birthday": 374860800000,
+        "departmentId": "4001",
+        "departmentName": "北京分社-总编室",
+        "position": null,
+        "phoneNumber": null,
+        "mobile": null,
+        "tel": "1234567891",
+        "email": "dingjing@xinhua.com",
+        "individualitySignature": null,
+        "address": null,
+        "iconUrl": "./public/slackSideBar/img/img-apple-64/1f467-1f3fb.png",
+        "subAccount": null,
+        "subToken": null,
+        "voipAccount": null,
+        "voipToken": null,
+        "creater": null,
+        "createTime": null,
+        "updater": null,
+        "updateTime": null,
+        "delFlg": null,
+        "roleList": [
+            {
+                "roleId": "R003",
+                "roleName": "总编室报道创建人",
+                "roleType": "2",
+                "orgId": "3001",
+                "orgName": "内设机构",
+                "sequence": "/1001/2001/3001",
+                "sequenceName": "/新华通讯社"
+            }
+        ]
+    }
+}

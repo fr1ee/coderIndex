@@ -1,0 +1,120 @@
+[
+    {
+        "id": "c0250001", 
+        "name": "国内新闻", 
+        "parentID": "0", 
+        "contentType": "1", 
+        "isLeaf": "0",
+        "catalogItems": [
+            {
+                "id": "c0270184", 
+                "name": "宏观经济", 
+                "parentID": "c0250001", 
+                "contentType": "1", 
+                "isLeaf": "1"
+            },
+            {
+                "id": "c0270226", 
+                "name": "行业经济", 
+                "parentID": "c0250001", 
+                "contentType": "1", 
+                "isLeaf": "1"
+            },
+            {
+                "id": "c0270683", 
+                "name": "市场", 
+                "parentID": "c0250001", 
+                "contentType": "1", 
+                "isLeaf": "1"
+            },
+            {
+                "id": "c0270059", 
+                "name": "军事", 
+                "parentID": "c0250001", 
+                "contentType": "1", 
+                "isLeaf": "0",
+                "catalogItems": [
+                	{
+		                "id": "c0270984", 
+		                "name": "突发事件", 
+		                "parentID": "c0270059", 
+		                "contentType": "1", 
+		                "isLeaf": "1"
+		            }
+                ]
+            },
+            {
+                "id": "c0270069", 
+                "name": "社会", 
+                "parentID": "c0250001", 
+                "contentType": "1", 
+                "isLeaf": "1"
+            },
+            {
+                "id": "c0270082", 
+                "name": "生态环境", 
+                "parentID": "c0250001", 
+                "contentType": "1", 
+                "isLeaf": "1"
+            },
+            {
+                "id": "c0270121", 
+                "name": "科技", 
+                "parentID": "c0250001", 
+                "contentType": "1", 
+                "isLeaf": "1"
+            },
+            {
+                "id": "c0270140", 
+                "name": "教育", 
+                "parentID": "c0250001", 
+                "contentType": "1", 
+                "isLeaf": "1"
+            },
+            {
+                "id": "c0270830", 
+                "name": "文化娱乐", 
+                "parentID": "c0250001", 
+                "contentType": "1", 
+                "isLeaf": "1"
+            },
+            {
+                "id": "c0270854", 
+                "name": "医药卫生", 
+                "parentID": "c0250001", 
+                "contentType": "1", 
+                "isLeaf": "1"
+            },
+            {
+                "id": "c0270864", 
+                "name": "体育", 
+                "parentID": "c0250001", 
+                "contentType": "1", 
+                "isLeaf": "1"
+            },
+            {
+                "id": "c0270863", 
+                "name": "其它", 
+                "parentID": "c0250001", 
+                "contentType": "1", 
+                "isLeaf": "1"
+            }
+        ]
+    },
+    {
+        "id": "c0250002", 
+        "name": "国际新闻", 
+        "parentID": "0", 
+        "contentType": "1", 
+        "isLeaf": "0",
+        "catalogItems": [
+            {
+                "id": "1111111", 
+                "name": "其它", 
+                "parentID": "c0250002", 
+                "contentType": "1", 
+                "isLeaf": "1"
+            }
+        ]
+    }
+]

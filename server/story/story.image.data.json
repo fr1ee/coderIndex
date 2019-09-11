@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "imageUrl": "/public/assets/images/Desert.jpg",
+      "name": "Austin guitar",
+      "value": "/public/assets/images/Desert.jpg"
+    },
+    {
+      "imageUrl": "/public/assets/video/a.png",
+      "name": "Austin skyline",
+      "value": "/public/assets/video/a.mp4"
+    },
+    {
+      "imageUrl": "/public/assets/images/Tulips.jpg",
+      "name": "Barn",
+      "value": "/public/assets/images/Tulips.jpg"
+    },
+    {
+      "imageUrl": "/public/assets/images/Hydrangeas.jpg",
+      "name": "Golden Gate Bridge",
+      "value": "/public/assets/images/Hydrangeas.jpg"
+    },
+    {
+      "imageUrl": "/public/assets/video/360.png",
+      "name": "Hamilton Pool",
+      "value": "/public/assets/video/cool360.480P.mp4"
+    }
+  ]
+}

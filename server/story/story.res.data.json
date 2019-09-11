@@ -1,0 +1,20 @@
+{
+    "title": "",
+    "subtitle": "",
+    "navigation_1": "个人素材",
+    "navigation_2": "报道组素材",
+    "navigation_3": "相关选题素材",
+    "navigation_4": "收藏",
+    "type_all": "public/assets/images/folder-add.png",
+    "type_pic": "public/assets/images/folder-image.png",
+    "type_mus": "public/assets/images/folder-image.png",
+    "type_mov": "public/assets/images/folder-video.png",
+    "type_doc": "public/assets/images/document.png",
+    "type_seach": "public/assets/images/search-blue.png",
+    "type_all_text": "全部",
+    "type_pic_text": "图片",
+    "type_mus_text": "音乐",
+    "type_mov_text": "视频",
+    "type_doc_text": "文档",
+    "type_seach_text": "搜索"
+  }

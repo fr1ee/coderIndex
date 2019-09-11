@@ -1,0 +1,24 @@
+{
+	"3002":[
+		  {"personId":"jfg", "personName": "京发稿"}
+	],
+    "3003":[
+		  {"personId":"ljz", "personName": "辽记者"},
+		  {"personId":"lfg", "personName": "辽发稿"}
+	],
+    "3004":[
+		  {"personId":"hjz", "personName": "河记者"},
+		  {"personId":"hfg", "personName": "河发稿"}
+	],
+	"4001":[
+          {"personId":"gdbj", "personName": "政文编辑"},
+          {"personId":"gdjd", "personName": "政文校对"},
+          {"personId":"gdqf", "personName": "政文签发"}
+	],
+	"4003":[
+          {"personId":"jjqf", "personName": "经济签发"}
+	],
+	"4002":[
+		  {"personId":"fwbj", "personName": "服务编辑"}
+	]
+}

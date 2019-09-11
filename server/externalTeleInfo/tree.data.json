@@ -1,0 +1,23 @@
+[
+    {
+        "id": "c0245004", 
+        "name": "台北中央社", 
+        "parentID": "0", 
+        "contentType": "1", 
+        "isLeaf": "1"
+    },
+    {
+        "id": "c0245005", 
+        "name": "德新社", 
+        "parentID": "0", 
+        "contentType": "1", 
+        "isLeaf": "1"
+    },
+    {
+        "id": "c0245002", 
+        "name": "美联社", 
+        "parentID": "0", 
+        "contentType": "1", 
+        "isLeaf": "1"
+    }
+]

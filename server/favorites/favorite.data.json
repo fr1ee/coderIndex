@@ -1,0 +1,53 @@
+[
+    {
+        "json":{
+            "json":{
+                "id":"103",
+                "favoriteName":"习近平谈把握经济新常态大逻辑",
+                "storySource":"",
+                "createDate":"2015/10/18",
+                "type":"2"
+            },
+            "favoriteName":"坚持一中原则是发展中美关系的政治基础",
+            "storySource":"",
+            "createDate":"2015/10/18",
+            "iconUrl":"",
+            "type":"2",
+            "id":"102"
+        },
+        "favoriteName":"家庭家教家风 见文明家庭代表 ",
+        "storySource":"",
+        "createDate":"2015/10/18",
+        "iconUrl":"",
+        "type":"1",
+        "id":"20170114195536605"
+    },   
+    {
+        "id":"20170116172317288",
+        "favoriteName":"酸奶瓶砸人案",
+        "storySource":"天降",
+        "createDate":"2016/09/06",
+        "iconUrl":"public/assets/img/xinwen1.jpg",
+        "type":"2"
+    },
+    {
+        "id":"20170116171233550",
+        "favoriteName":"通过ATM提现.png",
+        "storySource":"素材",
+        "createDate":"2016/10/10",
+        "iconUrl":"public/assets/img/xinwen1.jpg",
+        "type":"4"
+    },
+    {
+        "json":{
+
+        },
+        "favoriteName":"山东村干部向低保户收取1000跑腿费被开除党籍",
+        "storySource":"",
+        "createDate":"2016/12/14",
+        "iconUrl":"",
+        "type":3,
+        "parentid":"",
+        "id":"20170116161059969"
+    }
+]

@@ -1,0 +1,57 @@
+{
+  "docTypeList":[
+        {"conditionType":"mediaTypeId", "typeId":"text", "typeName": "文字"},
+        {"conditionType":"mediaTypeId", "typeId":"photo", "typeName": "图片"},
+        {"conditionType":"mediaTypeId", "typeId":"photocollection", "typeName": "组图"},
+        {"conditionType":"mediaTypeId", "typeId":"audio", "typeName": "音频"},
+        {"conditionType":"mediaTypeId", "typeId":"video", "typeName": "视频"},
+        {"conditionType":"mediaTypeId", "typeId":"multimedia", "typeName": "多媒体"}
+      ],
+  "resourceTypeList":[
+        {"resTypeId":200, "resTypeName": "未定稿"},
+        {"resTypeId":201, "resTypeName": "成品稿"},
+        {"resTypeId":202, "resTypeName": "社外电讯"},
+        {"resTypeId":203, "resTypeName": "音像资料"},
+        {"resTypeId":204, "resTypeName": "文献资料"},
+        {"resTypeId":205, "resTypeName": "互联网数据"},
+        {"resTypeId":206, "resTypeName": "知识库"},
+        {"resTypeId":207, "resTypeName": "报道"},
+        {"resTypeId":208, "resTypeName": "选题"}
+      ],
+  "timeConditionList":[
+        {"timeConditionId":300, "timeConditionName": "今天"},
+        {"timeConditionId":301, "timeConditionName": "近两天"},
+        {"timeConditionId":302, "timeConditionName": "最近一周"},
+        {"timeConditionId":303, "timeConditionName": "最近一个月"}
+      ],
+  "manuScriptSource":[
+        {"docSourceId":"总社自采", "docSourceName": "总社自采"},
+        {"docSourceId":"国内分社", "docSourceName": "国内分社"},
+        {"docSourceId":"国外分社", "docSourceName": "国外分社"},
+        {"docSourceId":"外国通讯社", "docSourceName": "外国通讯社"},
+        {"docSourceId":"其他来源", "docSourceName": "其他来源"}
+      ],
+  "classification":[
+        {"classifyId":"突发事件", "classifyName": "突发事件"},
+        {"classifyId":"政治法律", "classifyName": "政治法律"},
+        {"classifyId":"宏观经济", "classifyName": "宏观经济"},
+        {"classifyId":"行业经济", "classifyName": "行业经济"},
+        {"classifyId":"生态环境", "classifyName": "生态环境"},
+        {"classifyId":"其他分类", "classifyName": "其他分类"}
+      ],
+  "sourcePlace":[
+        {"placeId":"国内", "placeName": "国内"},
+        {"placeId":"亚洲", "placeName": "亚洲"},
+        {"placeId":"非洲", "placeName": "非洲"}
+      ],
+  "regions":[
+        {"regionsId":"北京", "regionsName": "北京"},
+        {"regionsId":"上海", "regionsName": "上海"},
+        {"regionsId":"广州", "regionsName": "广州"}
+      ],
+  "priorities":[
+        {"priorId":"普通", "priorName": "普通"},
+        {"priorId":"急", "priorName": "急"},
+        {"priorId":"特急", "priorName": "特急"}
+      ]
+}
