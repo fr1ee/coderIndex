@@ -7,7 +7,7 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 // import locale from 'element-ui/lib/locale/lang/en'
 import VueResource from 'vue-resource'
-Vue.use(ElementUI, {size: 'small'})
+Vue.use(ElementUI, { size: 'small', zIndex: 3000 });
 Vue.use(VueResource)
 Vue.config.productionTip = false
 
@@ -16,7 +16,7 @@ new Vue({
   el: '#app',
   router,
   data: {
-    message: 'Hello Vue!'
+    message: '积厚科技!'
   },
   template: '<App/>',
   components: { App }

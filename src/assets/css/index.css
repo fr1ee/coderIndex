@@ -98,18 +98,19 @@ body {
     font-family: "黑体-简", "黑体", "微软雅黑", Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
     width: 100%;
     margin: 0 auto;
-    background-color: #fbf8a5;
+    background-color: #ffffff;
     overflow-x: hidden;
-    background-image: url("../images/EarthMap.jpg");
+    /* background-image: url("../images/EarthMap.jpg"); */
     /* background-image: url("../images/backgroundimg.jpg"); */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+body::-webkit-scrollbar { 
+    display: none;  
+}
 .wrap {
-    width: 100vw;
-    height: 100vh;
+   width: 100%;
 
 }
 @media(min-width: 1200px){
@@ -298,13 +299,21 @@ body {
 
 .right-menu {
     position: fixed;
-    top: 0;
-    right: 0;
+    bottom: 10px;
+    right: 10px;
     z-index: 12;
-    height: 100%;
-    width: 80px;
     color: #fff;
     background: rgba(17, 18, 19, 0.41);
+}
+.left-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 12;
+    width: 15vw;
+    background: #fff;
+    height: 100vh;
+    overflow-y: auto;
 }
 
 .button_box {
@@ -323,7 +332,7 @@ body {
     text-align: center;
     /* height: 100px; */
     /* line-height: 56px; */
-    border: 2px solid rgba(255, 255, 255, 0);
+    border: 2px solid rgba(255, 88, 88, 0);
     margin: 0;
     padding: 10px;
     -webkit-box-sizing: border-box;
@@ -335,12 +344,12 @@ body {
 }
 
 .button_link:hover {
-    border: 2px solid rgba(255, 255, 255, 1);
+    border: 2px solid rgb(112, 198, 255);
 }
 
 .button_link .line {
     display: inline-block;
-    background-color: #ffffff;
+    background-color: rgb(112, 198, 255);
     position: absolute;
     -webkit-transition: 0.5s ease;
     -o-transition: 0.5s ease;
@@ -395,44 +404,7 @@ body {
     right: -2px;
 }
 
-/*returnTop*/
-p#back-to-top{
-    position:fixed;
-    display:none;
-    bottom:1px;
-    right:1px;
-}
-p#back-to-top a{
-    text-align:center;
-    text-decoration:none;
-    color:#d1d1d1;
-    display:block;
-    width:64px;
-    /*使用CSS3中的transition属性给跳转链接中的文字添加渐变效果*/
-    -moz-transition:color 1s;
-    -webkit-transition:color 1s;
-    -o-transition:color 1s;
-}
-p#back-to-top a:hover{
-    color:#979797;
-}
-p#back-to-top a span{
-    background-size: contain;
-    border-radius: 6px;
-    display: block;
-    height: 120px;
-    width: 70px;
-    background:transparent url(../images/gototop.gif) no-repeat;
-    margin-bottom:1px;
-    /*使用CSS3中的transition属性给<span>标签背景颜色添加渐变效果*/
-    -moz-transition:background 1s;
-    -webkit-transition:background 1s;
-    -o-transition:background 1s;
-}
-#back-to-top a:hover span{
-    background:transparent url(../images/gototop.gif) no-repeat;
-    background-size:contain;
-}
+
 
 /*图片样式*/
 .img-circle{

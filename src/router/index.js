@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
-
+import ShowWechat from '@/components/ShowWechat'
+import AddWechat from '@/components/AddWechat'
 Vue.use(Router)
 
 // scrollBehavior:
@@ -58,6 +59,18 @@ export default new Router({
       path: '/:anchor',
       name: 'HelloWorld',
       component: HelloWorld,
+      meta: { scrollToTop: true }
+    },
+    {
+      path: '/wechat/show',
+      name: 'ShowWechat',
+      component: ShowWechat,
+      meta: { scrollToTop: true }
+    },
+    {
+      path: '/wechat/add',
+      name: 'AddWechat',
+      component: AddWechat,
       meta: { scrollToTop: true }
     }
   ]
